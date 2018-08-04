@@ -36,7 +36,14 @@ Ces formats de fichier possèdent leur propre architecutre.
 
 ![Process Memory Layout](/uploads/process-memory-layout.png "Process Memory Layout"){.align-left}
 
-* La zone *.text* :
+Pour être éxécuté le code d'un binaire doit tout d'abord être chargé dans la mémoire d'un processus. L'architecture d'un binaire de type ELF au seins d'un processus est la suivante :
+
+* La zone *.text* : Contient les instructions du bianire.
+* La zone *.rodata*: Contient les variables globales initialisées en lecture seule.
+* La zone *.data*: Contient les variables globales initialisées.
+* La *heap*: Contient les données qui ont été allouée dynamiquement à l'aide de la fonction C:  malloc.
+* Il y a ensuite les librairies partagées et un vide qui séparent les sections précedentes de la suivante.
+* La *Stack*: Contient toutes les variables créée statiquement.
 
 
 
