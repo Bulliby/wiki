@@ -24,9 +24,19 @@ La *mémoire virtuelle* est chargée dans chaque processus. Avec un espace d'adr
 
 Chaque processus possède sa propre mémoire virtuelle évitant ainsi les conflits. C'est le système d'exploitation qui si charge de placer la data dans un endroit libre de la RAM si il en reste. 
 
-### Zone Mémoire d'un Processus
+### Binaires
+
+* Dans un système **Windows** les binaires sont appellés exécutable et possèdent l'extension *.exe*.
+* Dans un système **OsX** les binaires sont connus sous le format *Mach-O*.
+* Dans un système **Linux** les binaires sont connus sous le format *ELF* (**E**xecutable and **L**inkable **F**ormat.
+
+Ces formats de fichier possèdent leur propre architecutre.
+
+### Zones Mémoire d'un Processus
 
 ![Process Memory Layout](/uploads/process-memory-layout.png "Process Memory Layout"){.align-left}
+
+* La zone *.text* :
 
 
 
