@@ -45,6 +45,6 @@ Pour être éxécuté le code d'un binaire doit tout d'abord être chargé dans 
 * Il y a ensuite les librairies partagées et un vide qui séparent les sections précedentes de la suivante.
 * La *Stack*: Contient toutes les variables créée statiquement.
 
+### Indexation des Zones Mémoires
 
-
-
+Les zone mémoires précedentes apparaissent toujours dans cette ordre dans un système **Linux**. La partie haute avant l'espace vide est adressée de haut en bas. La partie basse (*La Stack*) est adressée de bas en haut. L'espace entre les deux parties haute et basse de la mémoire d'un processus a tendance à se réduire. 
