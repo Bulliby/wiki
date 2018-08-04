@@ -1,8 +1,8 @@
 <!-- TITLE: Accueil-->
 <!-- SUBTITLE: Ici, je stock de la documentation sur différents sujets -->
 
-> Ces notes reflètent mes connaissances actuelles et ne sont pas forcément exactes...
 # Reverse engineering
+> Ces notes reflètent mes connaissances actuelles et ne sont pas forcément exactes...
 
 ### Notation
 
