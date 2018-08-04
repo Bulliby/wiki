@@ -47,4 +47,4 @@ Pour être éxécuté le code d'un binaire doit tout d'abord être chargé dans 
 
 ### Indexation des Zones Mémoires
 
-Les zone mémoires précedentes apparaissent toujours dans cette ordre dans un système **Linux**. La partie haute avant l'espace vide est adressée de haut en bas. La partie basse (*La Stack*) est adressée de bas en haut. L'espace entre les deux parties haute et basse de la mémoire d'un processus a tendance à se réduire. 
+Les zones mémoires précedentes apparaissent toujours dans cette ordre dans un système **Linux**. La partie haute avant l'espace vide est adressée de haut en bas. La partie basse (*La Stack*) est adressée de bas en haut. L'espace entre les deux parties haute et basse de la mémoire d'un processus a tendance à se réduire. Du fait de cet indexation par le bas les adresses de la stack sont très élevées.
