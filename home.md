@@ -4,6 +4,9 @@
 # Reverse engineering
 > Ces notes reflètent mes connaissances actuelles et ne sont pas forcément exactes...
 
+
+
+
 ### Notation
 
 * 1 bit corresond à une unité possédant soit la valeur 0 soit la valeur 1.
