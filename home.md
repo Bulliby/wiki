@@ -1,6 +1,7 @@
 <!-- TITLE: Accueil-->
 <!-- SUBTITLE: Ici, je stock de la documentation sur différents sujets -->
 
+> Ces notes reflètent mes connaissances actuelles et ne sont pas forcément exactes...
 # Reverse engineering
 
 ### Notation
@@ -13,5 +14,11 @@ Un ordinateur base ses calculs sur 8 de ces unités que l'on nomme Byte ou Octec
 
 ### Mémoire Virtuelle vs Mémoire Physique
 
-Le système d'exploitation ne donne pas directement accès à sa mémoire physique. Il créer un système d'adressage virtuelle.
+Le système d'exploitation ne donne pas directement accès à sa mémoire physique. Il créer un système d'adressage virtuelle qu'il connect à la mémoire physique.
+
+Cette mémoire virtuelle est créer pour chaque
+
+### Mémoire et Processus
+
+
 
