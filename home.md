@@ -26,7 +26,8 @@ Chaque processus possède sa propre mémoire virtuelle évitant ainsi les confli
 
 ### Zone Mémoire d'un Processus
 
-![Process Memory Layout](/uploads/process-memory-layout.png "Process Memory Layout"){.align-center}
+![Process Memory Layout](/uploads/process-memory-layout.png "Process Memory Layout"){.align-left}
+
 
 
 
