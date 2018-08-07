@@ -16,7 +16,8 @@ gdb ./MonApp
 run < myfile
 ```
 
-* Pour print le contenu de la stack : `x/200x $sp`
+* Pour print le contenu de la stack : `x/200x $sp` ou `x/200x <adresse>`
 * Pour print l'adresse d'une fonction : `print myfunc`
+* Pour print l'adresse d'une variable : `print &variable`
 
 
