@@ -59,8 +59,8 @@ int buffer[64];
 printf("%c\n", buffer[x]);
 ```
 
-* Si `x` dépasse *64* nous parcourons la pile à contre-courant pour atteindre les variables plus haute dans le code (qui ont été déclarées avant).
-* Si `x` est inférieur à *0* alors nous parcourons la pile dans son sens et nous écrasons les variables situées plus basses dans le code.
+* Si `x` dépasse *64* nous parcourons la pile à contre-courant pour écraser les variables dont les adresses sont plus haute que la fin du buffer.
+* Si `x` est inférieur à *0* alors nous parcourons la pile dans son sens et nous écrasons les variables situées plus basses que le debut du buffer.
 > L'origine est toujours le buffer qu'on *Overflow*
 
 
