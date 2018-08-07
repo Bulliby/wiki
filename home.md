@@ -48,3 +48,19 @@ Pour être éxécuté, le code d'un binaire doit tout d'abord être chargé dans
 ### Indexation des Zones Mémoires
 
 Les zones mémoires précédentes apparaissent toujours dans cette ordre dans un système **Linux**. La partie haute avant l'espace vide est adressée de haut en bas. La partie basse (*La Stack*) est adressée de bas en haut. L'espace entre les deux parties haute et basse de la mémoire d'un processus, a tendance à se réduire. Du fait de cet indexation par le bas, les adresses de la stack sont très élevées.
+
+### Buffer Overflow
+
+Quand on effectue un **Buffer Overflow** avec un code de type : 
+
+```c_cpp
+int x;
+int buffer[64];
+printf("%c\n", buffer[x]);
+```
+
+* Si `x` dépasse *64* nous parcourons la pile à contre-courant pour atteindre les variables plus haute dans le code (qui ont été déclarées avant).
+* Si `x` est inférieur à *0* alors nous parcourons la pile dans son sens et nous écrasons les variables situées plus basses dans le code.
+> L'origine est toujours le buffer qu'on *Overflow*
+
+
