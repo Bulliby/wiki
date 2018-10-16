@@ -4,4 +4,4 @@
 - Documentation of my understanding at the moment of computer's architecture : [Reverse Engineering](reverse-engineering).
 - Some infos on debugging tools : [Debugging](debugging).
 - Shell's informations : [Shell](shell).
-- For a nive top : [Top](top).
+- For a nice top : [Top](top).
