@@ -4,4 +4,4 @@
 # Top
 ## Controls
 
-- -t 
+- `-t` 
