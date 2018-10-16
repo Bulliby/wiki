@@ -2,4 +2,4 @@
 <!-- SUBTITLE: Configuring and use Linux's top -->
 
 # Top
-#### Controls
+## Controls
