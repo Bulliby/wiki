@@ -22,3 +22,5 @@ Pour utiliser un **Docker** en serveur HTTP tout en ayant un serveur **Apache** 
     CustomLog "/var/log/httpd/mon.nom.de.domaine.com-access.log"
 </VirtualHost>
 ```
+
+> Il faut activer la librairie dynamique mod_proxy.so et mod_proxy_http.so.
