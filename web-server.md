@@ -23,4 +23,4 @@ Pour utiliser un **Docker** en serveur HTTP tout en ayant un serveur **Apache** 
 </VirtualHost>
 ```
 
-> Il faut activer la librairie dynamique mod_proxy.so et mod_proxy_http.so.
+> Il faut activer les librairies dynamiques **mod_proxy.so** et **mod_proxy_http.so**.
