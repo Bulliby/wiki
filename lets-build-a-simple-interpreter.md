@@ -1,4 +1,4 @@
 <!-- TITLE: Lets Build A Simple Interpreter -->
-<!-- SUBTITLE: Note About the online course at : [https://ruslanspivak.com/archives.html](lsbasi) -->
+<!-- SUBTITLE: Note About the online course -->
 
-# Header
+# Let's Build A Simple Interpreter [https://ruslanspivak.com/archives.html](lsbasi)
