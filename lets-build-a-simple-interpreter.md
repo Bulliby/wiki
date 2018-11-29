@@ -2,5 +2,4 @@
 <!-- SUBTITLE: Note About the online course -->
 
 # Let's Build A Simple Interpreter
-
- [lsbasi](https://ruslanspivak.com/archives.html)
+> [lsbasi](https://ruslanspivak.com/archives.html)
