@@ -7,4 +7,4 @@
 - For a nice top : [Top](top).
 - Web Server : [Web Server](web-server)
 - Notes about Let's Build A Simple Interpreter course : [Lsbasi](lets-build-a-simple-interpreter)
-- Python courses : [python3](python3)
+- Python courses : [Python3](python3)
