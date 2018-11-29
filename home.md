@@ -6,3 +6,4 @@
 - Shell's informations : [Shell](shell).
 - For a nice top : [Top](top).
 - Web Server : [Web Server](web-server)
+- Notes about Let's Build A Simple Interpreter course : [Lsbasi](lets-build-a-simple-interpreter)
