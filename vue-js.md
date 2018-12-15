@@ -75,6 +75,7 @@ module.exports = {
     "webpack-cli": "^3.1.2"
   },
   "scripts": {
+		"watch": "webpack -w --config ./build/webpack.config.dev.js",
     "build": "webpack --config ./build/webpack.config.dev.js"
   }
 }
