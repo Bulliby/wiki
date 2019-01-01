@@ -35,7 +35,7 @@ Choose the protocol you want to use (e.g *file* or *sftp*). For a local backup (
 
 Here is a sample of the script i use for my local backup :
 
-```shell
+```sh
 #!/bin/zsh
 
 export PASSPHRASE='Ma passphrase'
@@ -44,8 +44,8 @@ duplicity --encrypt-key Key-ID --full-if-older-than 1M --include-filelist /home/
 duplicity remove-all-but-n-full --encrypt-key Key-ID --force 2 file:///mnt/backup
 
 unset PASSPHRASE
-
 ```
+
 
 For details on how this works check : [duplicity_doc](http://duplicity.nongnu.org/duplicity.1.html)
 
