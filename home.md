@@ -8,4 +8,6 @@
 - Web Server : [Web Server](web-server)
 - Notes about Let's Build A Simple Interpreter course : [Lsbasi](lets-build-a-simple-interpreter)
 - Python courses : [Python3](python-3)
+- Javascript courses: [Javascript](javascript)
+- Duplicity (backup): [Duplicity](duplicity)
 - Installation of vue.js : [Vue.js](vue-js)
