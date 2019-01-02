@@ -1,6 +1,3 @@
-<!-- TITLE: Duplicity -->
-<!-- SUBTITLE: Some information on the duplicity configuration -->
-
 # Duplicity
 
 ## GPG
@@ -27,6 +24,11 @@ The ID of the key often needed is on the second line of each key's list block.
 
 > keep it safe
 
+#### Import your private key
+
+* `gpg --import save_key_cojecom`
+
+
 ## Duplicity
 
 ### Protocol
@@ -35,7 +37,7 @@ Choose the protocol you want to use (e.g *file* or *sftp*). For a local backup (
 
 Here is a sample of the script i use for my local backup :
 
-```sh
+```shell
 #!/bin/zsh
 
 export PASSPHRASE='Ma passphrase'
@@ -44,9 +46,9 @@ duplicity --encrypt-key Key-ID --full-if-older-than 1M --include-filelist /home/
 duplicity remove-all-but-n-full --encrypt-key Key-ID --force 2 file:///mnt/backup
 
 unset PASSPHRASE
+
 ```
 
-
-For details on how this works check : [duplicity_doc](http://duplicity.nongnu.org/duplicity.1.html)
+For details on how it works check : [duplicity_doc](http://duplicity.nongnu.org/duplicity.1.html)
 
 I used this tutorial : [digital](https://www.digitalocean.com/community/tutorials/how-to-use-duplicity-with-gpg-to-securely-automate-backups-on-ubuntu)
