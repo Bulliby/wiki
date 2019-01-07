@@ -9,7 +9,7 @@
 To crypt the backup we use *Gpg*.
 
 * First we create a key pair : `gpg --full-gen-key`
-> The default configuration are good standard use.
+> The default configuration are good for standard use.
 
 * You can now get the list of created gpg key pairs :
 `gpg --list-keys --keyid-format short`
