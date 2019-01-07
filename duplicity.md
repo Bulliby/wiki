@@ -2,8 +2,7 @@
 
 ## Configure a file system crypted backup
 > There is a realy good tutoiral on digitalocean:
-[here](https://www.digitalocean.com/community/tutorials/
-how-to-use-duplicity-with-gpg-to-securely-automate-backups-on-ubuntu)
+[here](https://www.digitalocean.com/community/tutorials/how-to-use-duplicity-with-gpg-to-securely-automate-backups-on-ubuntu)
 
 ### Gnu Privacy Guard (GPG)
 
