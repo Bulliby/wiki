@@ -7,24 +7,25 @@
 
 Vue.js come with npm : `npm install vue`
 
-We need the **webpack** bundler for parsing vue's files : `.vue` with:
+We need the **webpack** bundler for bundling us a main.js to include in our html code:
 
 ```shell
 npm install webpack webpack-cli --save-dev
 npm install vue-loader vue-template-compiler
 npm install css-loader vue-style-loader
 ```
-* `webpack-cli` : for cli interface of webpack.
+* `webpack-cli` and `webpack` : for cli interface of webpack on development mode.
 * `vue-loader` : for parse `.vue` file.
-* `vue-template-compiler` : for pasrse `<temlate>` tag.
+* `vue-template-compiler` : for pasrse `<template>` tag in single file component.
 * `css-loader` : for handle `.css`
-* `vue-style-loader` : parse `<style>` tag.
+* `vue-style-loader` : parse `<style>` tag in single file component.
 
 #### webpack.config.dev.js
 
 ```js
 const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const webpack = require('webpack');
 
 module.exports = {
     entry: './src/Vue/app.js',
@@ -64,10 +65,13 @@ module.exports = {
         ]
     },
     plugins: [
-        new VueLoaderPlugin()
+        new VueLoaderPlugin(),
+        new webpack.DefinePlugin({
+            'process.env': require('../config/prod.env')
+            //Permit to load the environments variables of the file prod.env.
+        })  
     ]
 };
-
 ```
 
 #### package.json
