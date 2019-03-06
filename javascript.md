@@ -35,3 +35,45 @@ If we have an utility like *axios* with a `.get` function who return a **Promise
 ```js
  Promise.all(pall1).then((values) => { console.log('array of the resulted promise are stored in values' ) });
 ```
+
+## Scope
+
+
+The scope in *JS* is not like in C who is **block scoped**  here the code is **function scoped** or global. If we want to trix and have a scope in a if statements we can define a *auto-called* function who contain the code we want block scoped, like this :
+
+```js
+if (true)
+{
+  (function() {
+    var x;
+    x = "Like this my variable x is not accessible out of if statement";
+  })();
+  //Not present here neither. Js is function scoped...
+}
+//Not accessible here.
+```
+
+## Hoisting
+
+We name **hoisting** the fact that *javascript* take the declaration variables before execution and put them at the top of the current scope. By the way this two snippet are identical :
+
+```js
+x = "test";
+console.log(x);
+var x;
+```
+
+```js
+var x;
+x = test;
+console.log(x);
+```
+
+They don't take the definition, when any, at the time of declaration, so :
+
+```js
+foo();
+var foo = function () {};
+```
+
+will result on the following error : `TypeError: foo is not a function`.
