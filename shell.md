@@ -63,6 +63,8 @@ exex_command("ls", "wc", "wc")
 
 ```
 
+
+
 #### fork()
 
 Nous exécutons chaque commande au sein d'un **fork**. Cela a pour effet de diviser le code en deux. Une partie (le fils) pour qui le processus ID (pid) vaut 0 *(voir 1)* une autre ou le **pid** est supérieur à 0 et fait référence au père du processus enfant qui lui ne change pas lors des différents **fork**.
