@@ -20,4 +20,8 @@ run < myfile
 * Pour print l'adresse d'une fonction : `print myfunc`
 * Pour print l'adresse d'une variable : `print &variable`
 
+### Chrome
+
+Pour faire une recherche dans le code client d'un site nous pouvons ouvrir le debugger `F12` puis  `Ctrl + Maj + F`.
+
 
