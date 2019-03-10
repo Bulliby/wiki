@@ -67,13 +67,13 @@ exex_command("ls", "wc", "wc")
 
 #### fork()
 
-Nous exécutons chaque commande au sein d'un **fork**. Cela a pour effet de diviser le code en deux. Une partie (le fils) pour qui le processus ID (pid) vaut 0 *(voir 1)* une autre ou le **pid** est supérieur à 0 et fait référence au père du processus enfant qui lui ne change pas lors des différents **fork**.
+Nous exécutons chaque commande au sein d'un **fork**. Cela a pour effet de diviser le code en deux. Une partie (le fils), pour qui le processus ID (pid) vaut 0 *(voir 1)* une autre ou le **pid** est supérieur à 0 et fait référence au père du processus enfant qui lui ne change pas lors des différents **fork**.
 
 #### execvp()
 
-Permet d'exécuter une commande en fonction de son **nom**. Ainsi `os.execvp(cmd3, [cmd3])` permet d’exécuter la commande `cmd3` avec les arguments `[cmd3]` qui représentent un tableau d'arguments contenant toujours par défaut en premier lieu le nom de la commande (d’où `cmd3` dans le tableau).  
+Permet d'exécuter une commande en fonction de son **nom**. Ainsi, `os.execvp(cmd3, [cmd3])` permet d’exécuter la commande `cmd3` avec les arguments `[cmd3]` qui représentent un tableau d'arguments contenant toujours par défaut en premier lieu le nom de la commande (d’où `cmd3` dans le tableau).  
 
-La particularité de cette commande est qu'une fois exécutée elle met fin au processus. Du code peut être écrit après `execvp()` mais si elle n’échoue pas aucune des instructions ne sera exécuté.
+La particularité de cette commande est qu'une fois exécutée elle met fin au processus. Du code peut être écrit après `execvp()` mais si elle n’échoue pas aucune des instructions ne seront exécutées.
 
 #### dup2(oldfd, newfd)
 
