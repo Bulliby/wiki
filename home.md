@@ -15,3 +15,5 @@
 - An explanation of CORS: [CORS](cors)
 - Archlinux Install : [ArchLinux](archlinux)
 - MacBook : [MacBook](mac-book)
+- SQL: [Sql](sql)
+- Graphs: [Graphs](graphs)
