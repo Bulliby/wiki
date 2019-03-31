@@ -8,11 +8,11 @@ There is two kinds of graph :
 
 ## Bipart graphs
 
-There are represented by ![Bipartgraphe](/uploads/bipartgraphe.png "Bipartgraphe"). And there is `x * y` edges.
+There are represented by ![Bipartgraphe](/uploads/bipartgraphe.png "Bipartgraphe"), and there is `x * y` edges.
 
 ## Complete Graphs
 
-There are represented by (image2). And there is : (image3) edges.
+There are represented by: ![Graphcomplet](/uploads/graphcomplet.png "Graphcomplet"). And there is : ![Edgeofcompletegraph](/uploads/edgeofcompletegraph.png "Edgeofcompletegraph") edges.
 
 ## Degree of vertex
 
