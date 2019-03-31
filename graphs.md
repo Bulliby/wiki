@@ -14,6 +14,10 @@ There are represented by ![Bipartgraphe](/uploads/bipartgraphe.png "Bipartgraphe
 
 There are represented by: ![Graphcomplet](/uploads/graphcomplet.png "Graphcomplet"). And there is : ![Edgeofcompletegraph](/uploads/edgeofcompletegraph.png "Edgeofcompletegraph") edges.
 
+### Handshake
+
+Suppose we would to know how many handshake there will be if 5 persons are meeting. We only have to trace the complete graph and the edges will represent the handshakes.
+
 ## Degree of vertex
 
 The degree of a vertex is given by the **number** of edge connected to it.
