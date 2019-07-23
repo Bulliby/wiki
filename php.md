@@ -77,3 +77,13 @@ Type juggling or loose comparison don't expose the developer to security issue i
 
 # References
 [type juggling](https://www.php.net/manual/fr/language.types.type-juggling.php) : [security](https://www.php.net/manual/fr/language.types.type-juggling.php) : [reset](https://www.php.net/manual/fr/function.reset.php)
+
+# Notes
+You can incrment a string
+
+```php
+	$string = 'deuw';
+	echo ++$strig; //deux
+```
+
+> The `+=1` however throw a warning and change the type of the variable.
