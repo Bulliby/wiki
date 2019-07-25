@@ -17,4 +17,4 @@ When you go on trucmuche.com, your **browser** download the **js** files of the 
 
 It the browsers did not block the **CORS**, a script from `trucmuche.com` could make request to your bank with your browser and get some secret content.
 
-That's why browser block **CORS**. Now if a server accept all type of orgin :  `Access-Control-Allow-Origin: *` all is data can be accessed by script from any domain.
+That's why browser block **CORS**. Now if a server accept all type of orgin :  `Access-Control-Allow-Origin: *` all is data can be accessed by script from any domain. That is the case for web app like api. (e.g Github API)
