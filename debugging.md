@@ -1,7 +1,7 @@
 <!-- TITLE: Debugging -->
 <!-- SUBTITLE: Diverses informations sur les debuggers *nix et Windows.-->
 
-# Debuggers T
+# Debuggers
 * Sur windows nous avons **x64dbg** qui ressemble beaucoup à *OllyDbg* et complétement libre. (*Une vraie perle!*)
 > Le GIT : https://github.com/x64dbg/x64dbg
 * Sur les systèmes * nix il y a **gdb** ou encore **lldb** plus récent.
