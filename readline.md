@@ -1,0 +1,1 @@
+| Other                   | Exit Complete Select Mode                |
