@@ -82,3 +82,19 @@ La commande dup2 permet de **dupliquer** `newfd` et de le placer à la place de 
 Comportement :  
 
 Quand on créer un nouvel fd (**file descriptor**) celui-ci prend le plus petit index disponible. Ainsi  avec le code `dup2(w, 1)` *(voir 2)*. Je ferme w laissant un trou dans les index de *file descriptor* ouvert. Puis je duplique le *file descriptor 1 (stdout)* qui va automatiquement le placer à l'index de w le **remplaçant**.
+
+
+## History expansion
+
+* `!!` Last history entry
+* `!str` History starting string
+* `!n` History line
+* `!#` Current line
+
+### Word history expansion `(:)`:
+
+* `!!:n` n Word
+* `!!n-x` x-n range words
+* `!!:$` last word
+
+> [ZSH manual](http://zsh.sourceforge.net/Doc/Release/zsh_toc.html)
