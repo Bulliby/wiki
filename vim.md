@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2019-12-23T14:37:28.335Z
+date: 2019-12-23T14:38:12.450Z
 tags: 
 ---
 
@@ -169,6 +169,6 @@ package_vim() {
 pacman -U vim-8.1.2268-2-x86_64.pkg.tar.xz vim-runtime-8.1.2268-2-x86_64.pkg.tar.xz
 ```
 
-- Apply this patch for lusty explorer : [patch](https://github.com/vim-scripts/LustyExplorer/pull/1/commits/0fb46f6e2e0bcd44094c7d2d959afe156348adcd)
+Apply this patch for lusty explorer : [patch](https://github.com/vim-scripts/LustyExplorer/pull/1/commits/0fb46f6e2e0bcd44094c7d2d959afe156348adcd)
 
-- To exculde Vim from pacman update add : `/etc/pacman.conf` add : `IgnorePkg   = vim vim-runtime`
+Exculde Vim from pacman update add : `/etc/pacman.conf` add : `IgnorePkg   = vim vim-runtime`
