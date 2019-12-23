@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2019-12-23T14:10:51.251Z
+date: 2019-12-23T14:13:38.806Z
 tags: 
 ---
 
@@ -16,4 +16,5 @@ tags:
 
 - Modify PKGBUILD eg:
 
-[pkgbuild](/vim/pkgbuild)
+```shell
+```
