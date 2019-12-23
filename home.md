@@ -1,5 +1,10 @@
-<!-- TITLE: Documentation -->
-<!-- SUBTITLE: All documentations i need to create for understand or remember -->
+---
+title: Documentation
+description: All documentations i need to create for understand or remember
+published: true
+date: 2019-12-23T14:34:13.183Z
+tags: 
+---
 
 - Documentation of my understanding at the moment of computer's architecture : [Reverse Engineering](reverse-engineering).
 - Some infos on debugging tools : [Debugging](debugging).
@@ -19,3 +24,4 @@
 - Graphs: [Graphs](graphs)
 - PHP: [PHP](php)
 - ReadLine: [ReadLine](readline)
+- VIM: [Vim](vim)
