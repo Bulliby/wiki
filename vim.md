@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2019-12-23T14:18:02.412Z
+date: 2019-12-23T14:33:15.936Z
 tags: 
 ---
 
@@ -42,7 +42,8 @@ sha512sums=('00ade0a024c3eb39829ed79345fc13ee0b7fc6163fe71968c360ff6c05e3302c2d1
             '1e06e981691b17662fd0fddac5c00c87c920d1b4a1cbb6191c42d57cc40b00af12710e26b22fcfc0901bb8142b15f6a04aa65cec2d9b3bb9d5a06cb650d3ab9c')
 
 prepare() {
-  (cd vim-${pkgver}/src
+  (cd vim-${pkgver}/src￼
+
     # define the place for the global (g)vimrc file (set to /etc/vimrc)
     sed -i 's|^.*\(#define SYS_.*VIMRC_FILE.*"\) .*$|\1|' feature.h
     sed -i 's|^.*\(#define VIMRC_FILE.*"\) .*$|\1|' feature.h
@@ -80,7 +81,8 @@ build() {
 check() {
   cd vim-${pkgver}
   #You can desactivate test if there is minors fails
-  TERM=xterm make -j1 test
+  TERM=xterm make -j1 test￼
+
 }
 
 package_vim-runtime() {
@@ -162,3 +164,10 @@ package_vim() {
 # vim: ts=2 sw=2 et:
 
 ```
+
+```shell
+pacman -U vim-8.1.2268-2-x86_64.pkg.tar.xz vim-runtime-8.1.2268-2-x86_64.pkg.tar.xz
+```
+
+- Apply this patch for lusty explorer :
+[patch](https://github.com/vim-scripts/LustyExplorer/pull/1/commits/0fb46f6e2e0bcd44094c7d2d959afe156348adcd)
