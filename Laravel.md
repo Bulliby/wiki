@@ -2,7 +2,7 @@
 title: Laravel
 description: 
 published: true
-date: 2019-12-23T17:06:41.455Z
+date: 2020-01-08T22:02:47.919Z
 tags: 
 ---
 
@@ -31,3 +31,7 @@ To replace the folder `app` with a custom name you can override the class :
 `vendor/laravel/framework/src/Illuminate/Foundation/Application.php`
 
 in `bootstrap/app.php`, not tested yer.
+
+## Difference between timestamp and datetime in migration
+
+They are close to be the same. They store both a date string (Y-m-d H:i:s). A difference of range is effective. For detail see : [laracast post](https://laracasts.com/discuss/channels/laravel/migrations-timestamp-vs-datetime-vs-date-vs-timestamps?page=0).
