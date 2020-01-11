@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2019-12-23T14:34:13.183Z
+date: 2020-01-11T10:42:17.218Z
 tags: 
 ---
 
@@ -25,3 +25,4 @@ tags:
 - PHP: [PHP](php)
 - ReadLine: [ReadLine](readline)
 - VIM: [Vim](vim)
+- Laravel: [Laravel](Laravel)
