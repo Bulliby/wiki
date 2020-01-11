@@ -2,7 +2,7 @@
 title: Laravel
 description: 
 published: true
-date: 2020-01-08T22:02:47.919Z
+date: 2020-01-11T11:49:53.839Z
 tags: 
 ---
 
@@ -23,8 +23,7 @@ composer.json:
 "NewNamespace\\": "app/"
 ```
 
-bootstrap.php, singleton.
-config/app.php
+`bootstrap/app.php`, `config/app.php`
 
 To replace the folder `app` with a custom name you can override the class :
 
