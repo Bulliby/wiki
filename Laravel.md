@@ -2,7 +2,7 @@
 title: Laravel
 description: 
 published: true
-date: 2020-01-11T11:49:53.839Z
+date: 2020-01-11T11:59:32.093Z
 tags: 
 ---
 
