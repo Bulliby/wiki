@@ -2,7 +2,7 @@
 title: Bitwise
 description: Operations on Bit
 published: true
-date: 2020-03-28T15:00:53.952Z
+date: 2020-03-28T15:17:48.608Z
 tags: lowlevel, binary, bit
 ---
 
@@ -22,4 +22,24 @@ const STATUS = {
 }
 ```
 
-We can use this const with **flags** to define what we need in a **single** variable (That's less memory consuming). For example if we want to handle an action on ERROR and STOPPED status
+We can use this const with **flags** to define what we need in a **single** variable (That's less memory consuming). For example if we want to handle an action on ERROR and STOPPED status we can pass the two status to the function who will use it like this :
+
+```js
+const STATUS = {
+    ERROR: 1,
+    SUCCESS: 1 << 1,
+    RUNING: 1 << 2,
+    PAUSED: 1 << 3,
+    STOPPED: 1 << 4
+}
+
+var foo = (flags) => {
+    if (flags & STATUS.ERROR) {
+        console.log("You have an error");
+    }
+    if (flags & STATUS.STOPPED) {
+        console.log("You have been stopped");
+    }
+};
+foo(STATUS.ERROR | STATUS.STOPPED);
+```
