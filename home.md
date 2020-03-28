@@ -2,27 +2,36 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-01-11T10:42:17.218Z
+date: 2020-03-28T14:22:05.001Z
 tags: 
 ---
 
 - Documentation of my understanding at the moment of computer's architecture : [Reverse Engineering](reverse-engineering).
-- Some infos on debugging tools : [Debugging](debugging).
-- Shell's informations : [Shell](shell).
-- For a nice top : [Top](top).
-- Web Server : [Web Server](web-server)
 - Notes about Let's Build A Simple Interpreter course : [Lsbasi](lets-build-a-simple-interpreter)
-- Python courses : [Python3](python-3)
-- Javascript courses: [Javascript](javascript)
-- Duplicity (backup): [Duplicity](duplicity)
-- Installation of vue.js : [Vue.js](vue-js)
-- Certbot create ssl apache's vhost by CLI: [certbot](certbot)
+
+# Web
+
+- Laravel: [Laravel](Laravel)
+- PHP: [PHP](php)
+- SQL: [Sql](sql)
+- Web Server : [Web Server](web-server)
 - An explanation of CORS: [CORS](cors)
+- Javascript courses: [Javascript](javascript)
+- Installation of vue.js : [Vue.js](vue-js)
+
+# Linux
+
+- Some infos on debugging tools : [Debugging](debugging)
+- Shell's informations : [Shell](shell)
+- For a nice top : [Top](top)
+- Duplicity (backup): [Duplicity](duplicity)
+- Python courses : [Python3](python-3)
+- Certbot create ssl apache's vhost by CLI: [certbot](certbot)
 - Archlinux Install : [ArchLinux](archlinux)
 - MacBook : [MacBook](mac-book)
-- SQL: [Sql](sql)
-- Graphs: [Graphs](graphs)
-- PHP: [PHP](php)
-- ReadLine: [ReadLine](readline)
 - VIM: [Vim](vim)
-- Laravel: [Laravel](Laravel)
+- ReadLine: [ReadLine](readline)
+
+# Others
+
+- Graphs: [Graphs](graphs)
