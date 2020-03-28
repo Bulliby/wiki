@@ -1,16 +1,18 @@
-<!-- TITLE: Web Server -->
-<!-- SUBTITLE: Knowledge about server -->
+---
+title: Web Server
+description: Knowledge about server
+published: true
+date: 2020-03-28T14:35:10.890Z
+tags: 
+---
 
-# Apache2/httpd
+# Apache
 
-### Docker + Apache
+### My configuration for docker on por 80
 
 Pour utiliser un **Docker** en serveur HTTP tout en ayant un serveur **Apache** écoutant sur le port 80, il faut : 
 
-* Utiliser un port différent que le port par défault comme entré du container : `0.0.0.0:22567->3000/tcp`. Ici nous utilisons le port 22567.
-
-* Utiliser Apache comme **Reverse Proxy** et redirigé les appels au *nom de domaine* choisi sur le port standart sur le port **22567**. Pour cela on peut écrire le virtual host suivant :
-
+For use **Docker** as a `http` server and continue to use the **apache** host i usually the **Reverse Proxy** functionnality of Apache. Like this :
 
 ```apache_conf
 <VirtualHost *:80>
@@ -23,4 +25,6 @@ Pour utiliser un **Docker** en serveur HTTP tout en ayant un serveur **Apache** 
 </VirtualHost>
 ```
 
-> Il faut activer les librairies dynamiques **mod_proxy.so** et **mod_proxy_http.so**.
+> To works it needs some apache **modules** : **mod_proxy.so** and **mod_proxy_http.so**
+
+Like this apache can listen apache redirect http request on the specified domain to the port `22567` who is binded to a docker container.
