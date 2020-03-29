@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-03-29T10:00:10.489Z
+date: 2020-03-29T10:03:23.424Z
 tags: 
 ---
 
@@ -22,7 +22,6 @@ tags:
 - Shell's informations : [Shell](shell)
 - For a nice top : [Top](top)
 - Duplicity (backup): [Duplicity](duplicity)
-- Python courses : [Python3](python-3)
 - Certbot create ssl apache's vhost by CLI: [certbot](certbot)
 - Archlinux Install : [ArchLinux](archlinux)
 - MacBook : [MacBook](mac-book)
