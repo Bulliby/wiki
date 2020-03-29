@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-03-29T09:57:37.328Z
+date: 2020-03-29T09:59:14.633Z
 tags: 
 ---
 
@@ -34,3 +34,4 @@ tags:
 - Graphs: [Graphs](graphs)
 - Documentation of my understanding at the moment of computer's architecture : [Reverse Engineering](reverse-engineering).
 - Notes about Let's Build A Simple Interpreter course : [Lsbasi](lets-build-a-simple-interpreter)
+- Bitwise: [Bitwise](Bitwise)
