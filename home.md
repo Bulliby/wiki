@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-03-29T09:59:14.633Z
+date: 2020-03-29T10:00:10.489Z
 tags: 
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 - Laravel: [Laravel](Laravel)
 - PHP: [PHP](php)
-- SQL: [Sql](sql)
+- SQL: [SQL](sql)
 - Web Server : [Web Server](web-server)
 - An explanation of CORS: [CORS](cors)
 - Javascript courses: [Javascript](javascript)
