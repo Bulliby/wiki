@@ -1,3 +1,11 @@
+---
+title: php
+description: 
+published: true
+date: 2020-03-30T20:33:23.413Z
+tags: 
+---
+
 # Type Juggling
 
 Type **juggling** is an *implicit cast* who appear when manipulating variables. Like PHP isn't explicitly typed implicit cast often happen. The type of a variable is set in function of context of the variable.
@@ -44,7 +52,7 @@ else
 
 Here an `implicit cast` have been made before comparison who transform string in integer.
 
-# Comparison
+## Comparison
 
 There is two type of comparison **loose** and **strict** one. Loose are comparison who *doesn't care* of the variable's **type**. Strict one check *type and value*.
 
@@ -65,20 +73,20 @@ else
 
 We can see that we can **mitigate** the result of precedent test with **strict** comparison.
 
-# PHP Advertisement
+## PHP Advertisement
 
 On certain function we can find in the PHP's **documentation** an advertisement that the function can return **false** *or* a value that can be interpreted like *false* by PHP in a loosely comparison.
 
 This is the case with the [reset](https://www.php.net/manual/fr/function.reset.php) function.
 
-# Security
+## Security
 
 Type juggling or loose comparison don't expose the developer to security issue in general becasue the HTTP's input are always string. Nevertheless this can happen by JSON parsing of response or cookie. Check the reference.
 
-# References
+## References
 [type juggling](https://www.php.net/manual/fr/language.types.type-juggling.php) : [security](https://www.php.net/manual/fr/language.types.type-juggling.php) : [reset](https://www.php.net/manual/fr/function.reset.php)
 
-# Notes
+## Notes
 You can incrment a string
 
 ```php
@@ -87,3 +95,17 @@ You can incrment a string
 ```
 
 > The `+=1` however throw a warning and change the type of the variable.
+
+# Ternary operator
+
+```php
+	expr1 ?: expr3
+```
+
+> Return expr1 if expr1 is **true**
+
+```php
+	(expr1) ?? (expr2) 
+```
+
+> Since php7, return expr1 if different of **NULL*
