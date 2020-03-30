@@ -2,7 +2,7 @@
 title: php
 description: 
 published: true
-date: 2020-03-30T20:33:23.413Z
+date: 2020-03-30T20:34:02.368Z
 tags: 
 ---
 
@@ -108,4 +108,4 @@ You can incrment a string
 	(expr1) ?? (expr2) 
 ```
 
-> Since php7, return expr1 if different of **NULL*
+> Since php7, return expr1 if different of **NULL**
