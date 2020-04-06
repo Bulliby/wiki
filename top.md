@@ -2,7 +2,7 @@
 title: Top
 description: Configuring and use Linux's top
 published: true
-date: 2020-04-06T18:31:58.288Z
+date: 2020-04-06T18:33:13.552Z
 tags: 
 ---
 
@@ -19,6 +19,12 @@ tags:
 -  `f` Select fields
 -  `x` Highligth the current column
 -  `>` or `<` Column change
+
+## Find the number of processing units
+
+```shell
+nproc
+```
 
 ## Load average
 
