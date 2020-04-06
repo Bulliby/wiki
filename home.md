@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-03-29T10:05:38.169Z
+date: 2020-04-06T18:24:12.581Z
 tags: 
 ---
 
@@ -20,7 +20,7 @@ tags:
 
 - Some infos on debugging tools : [Debugging](debugging)
 - Shell's informations : [Shell](shell)
-- For a nice top : [Top](top)
+- Top explanation : [Top](top)
 - Duplicity (backup): [Duplicity](duplicity)
 - Certbot create ssl apache's vhost by CLI: [certbot](certbot)
 - Archlinux Install : [ArchLinux](archlinux)
