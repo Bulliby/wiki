@@ -1,8 +1,17 @@
+---
+title: duplicity
+description: 
+published: true
+date: 2020-04-21T02:02:51.670Z
+tags: 
+---
+
 # Duplicity
 
 ## Configure a file system crypted backup
-> There is a good tutoiral on digitalocean:
-[here](https://www.digitalocean.com/community/tutorials/how-to-use-duplicity-with-gpg-to-securely-automate-backups-on-ubuntu)
+> There is a good tutoiral on digitalocean: [here](https://www.digitalocean.com/community/tutorials/how-to-use-duplicity-with-gpg-to-securely-automate-backups-on-ubuntu)
+
+>You can find the documentation [here](http://duplicity.nongnu.org/docs.html)
 
 ### Gnu Privacy Guard (GPG)
 
@@ -12,9 +21,10 @@ To crypt the backup we use *Gpg*.
 > The default configuration are good for standard use.
 
 * You can now get the list of created gpg key pairs :
+
 `gpg --list-keys --keyid-format short`
-  * `--keyid-format short` : print the short keyID. By default list-keys don't
-  show keyID because (default is none on arch-linux).
+
+`--keyid-format short` : print the short keyID. By default list-keys don't show keyID because (default is none on arch-linux).
 
 * Export the secret key : `gpg --export-secret-keys --armor <user-id> > privkey`
 and save it in safe external device.
@@ -42,7 +52,7 @@ and that's all because the `- **` exclude all the rest.
 
 ### Launch a System backup with duplicity
 
-```sh
+```shell
 
 export PASSPHRASE='Ma passphrase'
 
@@ -60,19 +70,23 @@ Enter the keyID and configure the backup as your need with the duplicity
 
 ## Restore a file system backup
 
-* If your are not on the host where the key-pair is saved. You have to restore
+If your are not on the host where the key-pair is saved. You have to restore
 your gpg key-pair (this one was created in GPG part of this tutorial):
+
  `gpg --import privkey`
 
-* You can now launch the following command :
+You can now launch the following command :
 
- ```sh
+ ```shell
  duplicity --file-to-restore "path/du/fichier" -t 4D \
 file:///home/save /home/target
 ```
-  * `--file-to-restore` : Permit to specify a specific file to restore. The path
-  is relative the first mandatory argument of the duplicity's backup command.
-  In our case root : `/`. That's why we don't use a path starting with `/`.
+
+* `--file-to-restore` : Permit to specify a specific file to restore. This file must be to the root of the backup.
+
+* The first parameter is the folder of duplicity backup.
+
+* The second parameter 	is where to restore.
 
 * `-t 4D` : Say to restore the backup like it was 4 days ago.
 
@@ -80,5 +94,6 @@ file:///home/save /home/target
 
 If you restored the backup from the backup device :
 
-* Don't forget to suppress the key-pair you imported earlier :
+Don't forget to suppress the key-pair you imported earlier :
+
 `gpg -delete-secret-and-public-key KeyId`
