@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-04-06T18:24:12.581Z
+date: 2020-04-28T21:48:53.612Z
 tags: 
 ---
 
@@ -27,6 +27,7 @@ tags:
 - MacBook : [MacBook](mac-book)
 - VIM: [Vim](vim)
 - ReadLine: [ReadLine](readline)
+- Git: [Git](git)
 
 # Others
 
