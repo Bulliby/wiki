@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2020-01-10T22:54:41.695Z
+date: 2020-05-14T14:08:26.067Z
 tags: 
 ---
 
@@ -57,3 +57,41 @@ Exculde Vim from pacman update add : `/etc/pacman.conf` add : `IgnorePkg   = vim
 ```
 
 Replace HOST_VIM_RUNTIME_PATH by the path of your vim runtime instance. To get it `:echo $VIMRUNTIME` in the cli of Vim.
+
+## Compile Vim editor (work)
+
+```shell
+uname -a
+```
+`Linux guillaume 5.3.0-51-generic #44-Ubuntu SMP Wed Apr 22 21:09:44 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux`
+
+```shell
+sudo apt-get install python3-dev
+```
+
+```shell
+cd ~/vim
+echo 2.2.2 > .ruby-version
+```
+
+```shell
+./configure \
+      --prefix=/usr \
+      --localstatedir=/var/lib/vim \
+      --with-features=huge \
+      --with-compiledby='Guillaume Wells' \
+      --enable-gpm \
+      --enable-acl \
+      --with-x=yes \
+      --disable-gui \
+      --enable-multibyte \
+      --enable-cscope \
+      --enable-netbeans \
+      --enable-perlinterp=dynamic \
+      --enable-python3interp=yes \
+      --with-python3-config-dir=$(python3-config --configdir) \
+      --enable-rubyinterp=yes \
+      --enable-luainterp=dynamic \
+      --enable-tclinterp=dynamic \
+      --disable-canberra
+```
