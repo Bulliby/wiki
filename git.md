@@ -2,13 +2,13 @@
 title: git
 description: Some usefull git's command
 published: true
-date: 2020-08-18T18:29:43.416Z
+date: 2020-08-18T18:33:24.544Z
 tags: 
 ---
 
 # Git
 
-## Usefull commans
+## Usefull commands
 
 * Delete a local branch without checking status (merged or not)
 
@@ -40,7 +40,7 @@ git diff --color-words
 git log --graph --oneline --decorate --all
 ```
 
-* Log feature commit who diverge from master
+* Log feature commits who diverge from master
 
 ```shell
 git log master..feature
