@@ -2,7 +2,7 @@
 title: git
 description: Some usefull git's command
 published: true
-date: 2020-04-28T21:48:09.736Z
+date: 2020-08-18T18:29:43.416Z
 tags: 
 ---
 
@@ -38,6 +38,12 @@ git diff --color-words
 
 ```shell
 git log --graph --oneline --decorate --all
+```
+
+* Log feature commit who diverge from master
+
+```shell
+git log master..feature
 ```
 
 ### Patch
