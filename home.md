@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-08-31T17:22:47.845Z
+date: 2020-08-31T17:24:01.350Z
 tags: 
 ---
 
@@ -15,6 +15,7 @@ tags:
 - An explanation of CORS: [CORS](cors)
 - Javascript courses: [Javascript](javascript)
 - Installation of vue.js : [Vue.js](vue-js)
+- Eloquent Book : [Eloquent](eloquent-book)
 
 # Linux
 
