@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-08-31T17:18:45.488Z
+date: 2020-08-31T17:19:36.119Z
 tags: 
 ---
 
@@ -28,7 +28,7 @@ tags:
 - VIM: [Vim](vim)
 - ReadLine: [ReadLine](readline)
 - Git: [Git](git)
-- GRUB: [Boot](boot)
+- Grub: [Boot](Boot)
 
 # Others
 
