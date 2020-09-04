@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-08-31T17:24:01.350Z
+date: 2020-09-04T20:32:48.071Z
 tags: 
 ---
 
@@ -13,6 +13,7 @@ tags:
 - SQL: [SQL](sql)
 - Web Server : [Web Server](web-server)
 - An explanation of CORS: [CORS](cors)
+- An explanation of CSRF: [CSRF](Csrf)
 - Javascript courses: [Javascript](javascript)
 - Installation of vue.js : [Vue.js](vue-js)
 - Eloquent Book : [Eloquent](eloquent-book)
