@@ -2,15 +2,14 @@
 title: cors
 description: 
 published: true
-date: 2020-09-05T11:05:16.714Z
+date: 2020-09-05T11:06:43.102Z
 tags: 
 editor: markdown
 ---
 
 # CORS
 > Cross-origin resource sharing
-
-![Cors](/uploads/cors.png "Cors")
+> Need rewrite
 
 ### Domain separation of client data
 
