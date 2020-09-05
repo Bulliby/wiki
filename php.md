@@ -2,13 +2,14 @@
 title: php
 description: 
 published: true
-date: 2020-03-30T20:34:02.368Z
+date: 2020-09-05T10:54:42.542Z
 tags: 
+editor: markdown
 ---
 
 # Type Juggling
 
-Type **juggling** is an *implicit cast* who appear when manipulating variables. Like PHP isn't explicitly typed implicit cast often happen. The type of a variable is set in function of context of the variable.
+Type **juggling** is an *implicit cast* who appear when manipulating variables. Like PHP isn't explicitly typed implicit cast happen. The type of a variable is set in function of context of the variable.
 
 ##### Example of type juggling (on assignation):
 
@@ -84,7 +85,7 @@ This is the case with the [reset](https://www.php.net/manual/fr/function.reset.p
 Type juggling or loose comparison don't expose the developer to security issue in general becasue the HTTP's input are always string. Nevertheless this can happen by JSON parsing of response or cookie. Check the reference.
 
 ## References
-[type juggling](https://www.php.net/manual/fr/language.types.type-juggling.php) : [security](https://www.php.net/manual/fr/language.types.type-juggling.php) : [reset](https://www.php.net/manual/fr/function.reset.php)
+[type juggling](https://www.php.net/manual/fr/language.types.type-juggling.php) ; [security](https://www.php.net/manual/fr/language.types.type-juggling.php) ; [reset](https://www.php.net/manual/fr/function.reset.php)
 
 ## Notes
 You can incrment a string
