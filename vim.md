@@ -2,8 +2,9 @@
 title: Vim
 description: 
 published: true
-date: 2020-08-23T13:56:23.048Z
+date: 2020-10-16T09:23:41.478Z
 tags: 
+editor: markdown
 ---
 
 # Vim
@@ -94,7 +95,15 @@ echo 2.2.2 > .ruby-version
       --enable-luainterp=dynamic \
       --enable-tclinterp=dynamic \
       --disable-canberra
+      make VIMRUNTIMEDIR=HOST_VIM_RUNTIME_PATH
 ```
+
+Runtime Path :
+
+```
+/usr/share/vim/vim81
+```
+
 
 ## Usage
 
