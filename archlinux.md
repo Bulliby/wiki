@@ -1,3 +1,12 @@
+---
+title: archlinux
+description: 
+published: true
+date: 2020-10-31T11:46:56.760Z
+tags: 
+editor: markdown
+---
+
 # Arch Linux
 
 ### Installation
@@ -22,3 +31,22 @@ For recover a clean usb for other use we need to exec this cmd :
 ```shell
 wipefs --all /dev/sdx
 ```
+
+#### Bose headeset
+
+Install
+
+`pacman -S bluez bluez-utils bluedevil pulseaudio pulseaudi-bluetooth`
+
+Enable PulseAudio services
+
+```
+systemctl --user enable pulseaudio.socket
+systemctl --user enable pulseaudio.service
+
+systemctl --user start pulseaudio.socket
+systemctl --user start pulseaudio.service
+```
+> If an error `too many symbolic link` appear in `journalctl -f` you have to remove the device from your bluetooth listing. I dont't find a way to do this in GUI.
+
+Run `bluetoothctl`
