@@ -2,8 +2,9 @@
 title: Csrf
 description: An explanation of CSRF
 published: true
-date: 2020-09-04T20:32:08.372Z
+date: 2020-10-31T17:03:10.993Z
 tags: 
+editor: undefined
 ---
 
 # CSRF

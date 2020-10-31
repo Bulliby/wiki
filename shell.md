@@ -1,5 +1,11 @@
-<!-- TITLE: Shell -->
-<!-- SUBTITLE: A quick summary of Shell -->
+---
+title: Shell
+description: A quick summary of Shell
+published: true
+date: 2020-10-31T17:03:58.172Z
+tags: 
+editor: undefined
+---
 
 # Shell
 

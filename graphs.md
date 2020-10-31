@@ -1,3 +1,12 @@
+---
+title: graphs
+description: 
+published: true
+date: 2020-10-31T17:03:37.977Z
+tags: 
+editor: undefined
+---
+
 # Graphs
 
 A graph is composed by edges (côtés) and vertex (sommets).

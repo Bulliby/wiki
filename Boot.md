@@ -2,8 +2,9 @@
 title: Boot
 description: 
 published: true
-date: 2020-05-07T14:02:49.214Z
+date: 2020-10-31T17:03:08.582Z
 tags: 
+editor: undefined
 ---
 
 # Boot

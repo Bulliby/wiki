@@ -1,5 +1,11 @@
-<!-- TITLE: vue.js -->
-<!-- SUBTITLE: Note about vue.js developement  -->
+---
+title: vue.js
+description: Note about vue.js developement 
+published: true
+date: 2020-10-31T17:04:07.957Z
+tags: 
+editor: undefined
+---
 
 # Vue.js
 

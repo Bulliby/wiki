@@ -1,5 +1,11 @@
-<!-- TITLE: Debugging -->
-<!-- SUBTITLE: Diverses informations sur les debuggers *nix et Windows.-->
+---
+title: Debugging
+description: Diverses informations sur les debuggers *nix et Windows.
+published: true
+date: 2020-10-31T17:03:25.536Z
+tags: 
+editor: undefined
+---
 
 # Debuggers
 * Sur windows nous avons **x64dbg** qui ressemble beaucoup à *OllyDbg* et complétement libre. (*Une vraie perle!*)

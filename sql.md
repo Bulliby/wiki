@@ -1,3 +1,12 @@
+---
+title: sql
+description: 
+published: true
+date: 2020-10-31T17:04:00.544Z
+tags: 
+editor: undefined
+---
+
 # SQL
 
 ## Foreign keys

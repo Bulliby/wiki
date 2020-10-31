@@ -2,9 +2,9 @@
 title: archlinux
 description: 
 published: true
-date: 2020-10-31T11:46:56.760Z
+date: 2020-10-31T17:03:18.214Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # Arch Linux

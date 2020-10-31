@@ -2,8 +2,9 @@
 title: mac-book
 description: 
 published: true
-date: 2020-05-07T13:37:29.632Z
+date: 2020-10-31T17:03:45.331Z
 tags: 
+editor: undefined
 ---
 
 # MacBook

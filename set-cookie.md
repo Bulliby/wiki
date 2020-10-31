@@ -2,9 +2,9 @@
 title: Set-Cookie
 description: 
 published: true
-date: 2020-10-15T21:00:19.126Z
+date: 2020-10-31T17:03:55.600Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # Set-Cookie

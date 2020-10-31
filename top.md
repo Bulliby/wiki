@@ -2,8 +2,9 @@
 title: Top
 description: Configuring and use Linux's top
 published: true
-date: 2020-04-06T18:33:13.552Z
+date: 2020-10-31T17:04:02.997Z
 tags: 
+editor: undefined
 ---
 
 # Top

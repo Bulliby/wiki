@@ -2,8 +2,9 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-09-04T20:32:48.071Z
+date: 2020-10-31T17:03:40.473Z
 tags: 
+editor: undefined
 ---
 
 # Web

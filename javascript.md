@@ -1,5 +1,11 @@
-<!-- TITLE: Javascript -->
-<!-- SUBTITLE: Some notes about the Javascript language -->
+---
+title: Javascript
+description: Some notes about the Javascript language
+published: true
+date: 2020-10-31T17:03:42.952Z
+tags: 
+editor: undefined
+---
 
 # Javascript
 

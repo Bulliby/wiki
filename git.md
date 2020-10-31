@@ -2,8 +2,9 @@
 title: git
 description: Some usefull git's command
 published: true
-date: 2020-08-18T18:33:24.544Z
+date: 2020-10-31T17:03:35.525Z
 tags: 
+editor: undefined
 ---
 
 # Git

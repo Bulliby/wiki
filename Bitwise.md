@@ -2,8 +2,9 @@
 title: Bitwise
 description: Operations on Bit
 published: true
-date: 2020-03-28T15:17:48.608Z
-tags: lowlevel, binary, bit
+date: 2020-10-31T17:03:06.129Z
+tags: 
+editor: undefined
 ---
 
 # Bitwise for CONST

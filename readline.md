@@ -1,3 +1,12 @@
+---
+title: readline
+description: 
+published: true
+date: 2020-10-31T17:03:50.626Z
+tags: 
+editor: undefined
+---
+
 ## Readline Shortcut
 
 `Meta`+`B` means press `Esc` and `n` separately.  

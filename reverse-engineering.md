@@ -1,3 +1,12 @@
+---
+title: reverse-engineering
+description: 
+published: true
+date: 2020-10-31T17:03:53.176Z
+tags: 
+editor: undefined
+---
+
 # Reverse engineering
 > Ces notes reflètent mes connaissances actuelles et ne sont pas forcément exactes...
 

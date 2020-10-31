@@ -2,9 +2,9 @@
 title: Vim
 description: 
 published: true
-date: 2020-10-16T09:23:41.478Z
+date: 2020-10-31T17:04:05.488Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # Vim
