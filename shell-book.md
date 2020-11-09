@@ -1,0 +1,34 @@
+---
+title: Shell Book
+description: 
+published: true
+date: 2020-11-09T21:08:04.285Z
+tags: 
+editor: markdown
+---
+
+# Shell Book
+## Tips 
+```shell
+(ls -Ra)
+```
+> Run `ls -Ra` in a subshell
+
+```shell
+trap "/bin/rm -rf my_file.sh" EXIT
+```
+> Permit to act on a specific UNIX **signal**
+
+```shell
+variable=my_script.bash echo ${variable#toto}
+# Echo .bash
+variable=my_script.bash echo ${variable%.bash}
+# Echo toto
+```
+> Permit to extract a sub-string from a variable. `#` prefix like regex `^` suffix `%` like regex `$`. We can use double oerator `##` or `%%` to extact the longer string.
+
+```shell
+echo ${PWD/$HOME/\~}
+# if PWD is /home/bulliby/dev/shell we get ~/dev/shell
+```
+> This can be used for simple task in replacement of sed.
