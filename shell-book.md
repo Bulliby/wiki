@@ -2,7 +2,7 @@
 title: Shell Book
 description: 
 published: true
-date: 2020-11-09T21:08:04.285Z
+date: 2020-11-09T21:19:31.910Z
 tags: 
 editor: markdown
 ---
@@ -25,10 +25,21 @@ variable=my_script.bash echo ${variable#toto}
 variable=my_script.bash echo ${variable%.bash}
 # Echo toto
 ```
-> Permit to extract a sub-string from a variable. `#` prefix like regex `^` suffix `%` like regex `$`. We can use double oerator `##` or `%%` to extact the longer string.
+> Permit to extract a sub-string from a variable. `#` prefix like regex `^` suffix `%` like regex `$`. We can use double oerator `##` or `%%` to extact the longer string
 
 ```shell
 echo ${PWD/$HOME/\~}
 # if PWD is /home/bulliby/dev/shell we get ~/dev/shell
 ```
-> This can be used for simple task in replacement of sed.
+> This can be used for simple task in replacement of sed
+
+```shell
+echo $((2 + 4))
+# Give 6, simple calculation
+```
+
+```shell
+variable=$(ls -la)
+# Place the result of cmd in `variable`.
+```
+> we can also use backtick but the primer form is recommended
