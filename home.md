@@ -2,9 +2,9 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-10-31T17:03:40.473Z
+date: 2020-11-09T21:28:41.329Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Web
@@ -33,6 +33,7 @@ editor: undefined
 - Git: [Git](git)
 - Grub: [Boot](Boot)
 - Docker: [Docker](docker)
+- Shell-Book: [Shell-Book](/shell-book)
 
 # Others
 
