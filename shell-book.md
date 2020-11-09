@@ -2,7 +2,7 @@
 title: Shell Book
 description: 
 published: true
-date: 2020-11-09T21:19:31.910Z
+date: 2020-11-09T21:27:40.190Z
 tags: 
 editor: markdown
 ---
@@ -43,3 +43,9 @@ variable=$(ls -la)
 # Place the result of cmd in `variable`.
 ```
 > we can also use backtick but the primer form is recommended
+
+```shell
+declare -r A
+A="Modification"
+```
+> Variable in read-only mode the modification give an error
