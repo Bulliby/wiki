@@ -2,9 +2,9 @@
 title: archlinux
 description: 
 published: true
-date: 2020-10-31T17:03:18.214Z
+date: 2020-11-24T21:28:47.027Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Arch Linux
@@ -50,3 +50,8 @@ systemctl --user start pulseaudio.service
 > If an error `too many symbolic link` appear in `journalctl -f` you have to remove the device from your bluetooth listing. I dont't find a way to do this in GUI.
 
 Run `bluetoothctl`
+
+#### GeForce RTx2700
+
+Install nvidia proprietary driver.
+> The nouveau seems not work well.
