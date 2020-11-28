@@ -2,14 +2,22 @@
 title: Boot
 description: 
 published: true
-date: 2020-10-31T17:03:08.582Z
+date: 2020-11-28T15:15:40.436Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Boot
 
-## Grub2
+## Boot process (MBR)
+
+First **BIOS** do a **POST** *(Power-on self-test)* in order to define if the hardware is able to boot. Then **BIOS** search, in accordance with the boot order configured, for a **MBR**, loads the first one and then starts his execution. The **MBR** contains the *stage1* of **grub** and is really small *446 bytes*, the *partition table* and the *boot signature* fill the left place *66 bytes*, of the 512 bytes of first disk sector.
+
+The **stage 1** purpose is to load the next step **stage 1.5**. For historical reasons the first partition of a hard drive start at sector 63. This is where **stage 1.5** resides and he has enougth place for load **filesystem driver** and load **stage 2** of grub on a partition like `/boot`. The files are located in `/boot/grub2`.
+
+## Usage
+
+### Grub2
 
 You can edit the boot entry pressing `e`.
 > Press f10 for boot when it's done.
@@ -18,7 +26,7 @@ You can boot a shell command line just by removing **quiet** & **splash** and ot
 
 You can get the grub's command line by pressing `c` on the grub's screen choice.
 
-### Command Line
+#### Command Line
 
 `set pager=1`
 
