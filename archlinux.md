@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2020-11-24T21:28:47.027Z
+date: 2020-11-28T11:01:15.594Z
 tags: 
 editor: markdown
 ---
@@ -48,6 +48,8 @@ systemctl --user start pulseaudio.socket
 systemctl --user start pulseaudio.service
 ```
 > If an error `too many symbolic link` appear in `journalctl -f` you have to remove the device from your bluetooth listing. I dont't find a way to do this in GUI.
+
+Start/enable `bluetooth.service`
 
 Run `bluetoothctl`
 
