@@ -2,20 +2,27 @@
 title: Boot
 description: 
 published: true
-date: 2020-11-28T15:24:52.014Z
+date: 2020-11-30T21:38:20.440Z
 tags: 
 editor: markdown
 ---
 
 # Boot
 
-## Boot process (MBR)
+## Boot process (Legacy Bios)
 
-First **BIOS** do a **POST** *(Power-on self-test)* in order to define if the hardware is able to boot. Then **BIOS** search, in accordance with the boot order configured, for a **MBR**, loads the first one and then starts his execution. The **MBR** contains the *stage1* of **grub** and is really small *446 bytes*, the *partition table* and the *boot signature* fill the left place *66 bytes*, of the 512 bytes of first disk sector.
-
-The **stage 1** purpose is to load the next step **stage 1.5**. For historical reasons the first partition of a hard drive start at sector 63. This is where **stage 1.5** resides and he has enougth place for load **filesystem driver** and load **stage 2** of grub on a partition like `/boot`. The files are located in `/boot/grub2`.
+* First **BIOS** do a **POST** *(Power-on self-test)* in order to define if the hardware is able to boot. 
+* Then **BIOS** search, in accordance with the boot order configured, for a **MBR**, loads the first one he fund and then starts his execution. The **MBR** contains the *stage1* of **grub** and is really small *446 bytes*, the *partition table* and the *boot signature* fill the left place *66 bytes*, of the 512 bytes of the first disk sector.
+* The **stage 1** purpose is to load the next step **stage 1.5**. For historical reasons the first partition of a hard drive start at sector 63. This is where **stage 1.5** resides and he has enougth place for load **filesystem driver** and load **stage 2** of grub on **fs** partition like `/boot`. 
 
 * [Ressource](https://opensource.com/article/17/2/linux-boot-and-startup)
+
+## Boot process (UEFI)
+
+* An **EFI** parition must be created with the `esp` flag and **FAT32** filesystem. **GRUB** will place is efi **binary** created here with the *cmd* : `grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB`.
+> Where **esp** is the mounted directory of the efi partition, and **GRUB** the name that will displayed for this boot *Entry*
+
+* After this with : `grub-mkconfig -o /boot/grub/grub.cfg` the command find the kernel in the `boot` mounted partiton and create an entry for it in the grub **menu**.
 
 ## Usage
 
