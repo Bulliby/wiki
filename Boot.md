@@ -2,7 +2,7 @@
 title: Boot
 description: 
 published: true
-date: 2020-11-30T21:40:21.018Z
+date: 2020-11-30T21:41:29.774Z
 tags: 
 editor: markdown
 ---
@@ -65,7 +65,7 @@ boot (hd0,gpt4)
 
 ### Systemd
 
-You can choose the default target of systemd from grub editing the boot option with `e`
+You can choose the default target of systemd from grub editing the entry menu.
 
 ```
 systemd.unit=multi-user.target
