@@ -2,7 +2,7 @@
 title: Boot
 description: 
 published: true
-date: 2020-11-30T21:38:20.440Z
+date: 2020-11-30T21:40:21.018Z
 tags: 
 editor: markdown
 ---
@@ -24,18 +24,14 @@ editor: markdown
 
 * After this with : `grub-mkconfig -o /boot/grub/grub.cfg` the command find the kernel in the `boot` mounted partiton and create an entry for it in the grub **menu**.
 
-## Usage
+## GRUB2
 
-### Grub2
+### Edit menu entry
 
 You can edit the boot entry pressing `e`.
 > Press f10 for boot when it's done.
 
-You can boot a shell command line just by removing **quiet** & **splash** and other video config at end of linux kernel's load and put `init=/bin/sh` in place of it.
-
-You can get the grub's command line by pressing `c` on the grub's screen choice.
-
-#### Command Line
+### Command Line
 
 `set pager=1`
 
