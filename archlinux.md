@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2020-11-28T11:01:15.594Z
+date: 2020-11-30T18:42:07.314Z
 tags: 
 editor: markdown
 ---
@@ -36,7 +36,7 @@ wipefs --all /dev/sdx
 
 Install
 
-`pacman -S bluez bluez-utils bluedevil pulseaudio pulseaudi-bluetooth`
+`pacman -S bluez bluez-utils bluedevil pulseaudio pulseaudio-bluetooth`
 
 Enable PulseAudio services
 
