@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2020-11-30T18:42:07.314Z
+date: 2020-12-02T19:46:42.605Z
 tags: 
 editor: markdown
 ---
@@ -57,3 +57,7 @@ Run `bluetoothctl`
 
 Install nvidia proprietary driver.
 > The nouveau seems not work well.
+
+#### Locale (for vim)
+
+`~/.config/plasma-localerc` this file override `/etc/locale.conf` so to be able to put LANG to `en_US.UTF-8` we can delete this file.
