@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-12-28T19:53:29.799Z
+date: 2020-12-28T19:54:59.087Z
 tags: 
 editor: markdown
 ---
@@ -35,6 +35,7 @@ editor: markdown
 - Grub: [Boot](Boot)
 - Docker: [Docker](docker)
 - Shell-Book: [Shell-Book](/shell-book)
+- 0ToSysAdmin : [0ToSysAdmin](/0toSysAdmin)
 
 # Others
 
