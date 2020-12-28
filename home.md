@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-12-28T19:54:59.087Z
+date: 2020-12-28T20:01:14.506Z
 tags: 
 editor: markdown
 ---
@@ -18,7 +18,8 @@ editor: markdown
 - Javascript courses: [Javascript](javascript)
 - Installation of vue.js : [Vue.js](vue-js)
 - Eloquent Book : [Eloquent](eloquent-book)
-- Network : [Network OpenClassRooms](network)
+- Set-Cookie: [Set-Cookie](/set-cookie)
+- Vue JS : [Vue-js](/vue-js)
 
 # Linux
 
@@ -35,7 +36,6 @@ editor: markdown
 - Grub: [Boot](Boot)
 - Docker: [Docker](docker)
 - Shell-Book: [Shell-Book](/shell-book)
-- 0ToSysAdmin : [0ToSysAdmin](/0toSysAdmin)
 
 # Others
 
