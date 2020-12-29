@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2020-12-29T15:48:10.871Z
+date: 2020-12-29T15:58:00.372Z
 tags: 
 editor: markdown
 ---
@@ -13,7 +13,7 @@ editor: markdown
 
 Get the PKGBUILD from the official archlinux's repository. See : 
 
-[archlinux.fr](https://archive.archlinux.org/packages/v/vim)
+[archlinux.fr](https://wiki.archlinux.fr/Pacman#R.C3.A9cup.C3.A9rer_les_sources_d.27un_paquet)
 
 You can find a PKGBUILD sample here [github](https://github.com/Bulliby/Pkgbuild/blob/master/vim/PKGBUILD)
 
