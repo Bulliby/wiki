@@ -2,9 +2,10 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2020-12-28T20:01:14.506Z
+date: 2021-02-21T15:09:17.051Z
 tags: 
 editor: markdown
+dateCreated: 2021-01-15T19:57:06.436Z
 ---
 
 # Web
@@ -36,6 +37,7 @@ editor: markdown
 - Grub: [Boot](Boot)
 - Docker: [Docker](docker)
 - Shell-Book: [Shell-Book](/shell-book)
+- TLDP : [Advanced Bash Scripting](/abs)
 
 # Others
 
