@@ -2,9 +2,10 @@
 title: duplicity
 description: 
 published: true
-date: 2020-10-31T17:03:30.487Z
+date: 2021-04-06T17:26:08.513Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:58:10.993Z
 ---
 
 # Duplicity
@@ -57,11 +58,9 @@ and that's all because the `- **` exclude all the rest.
 
 export PASSPHRASE='Ma passphrase'
 
-duplicity --encrypt-key Key-ID --full-if-older-than 1M \
---include-filelist /home/bulliby/backup/files / file:///mnt/backup
+duplicity --encrypt-key Key-ID --full-if-older-than 1M --include-filelist /home/bulliby/backup/files / file:///mnt/backup
 
-duplicity remove-all-but-n-full --encrypt-key Key-ID \
---force 2 file:///mnt/backup
+duplicity remove-all-but-n-full --encrypt-key Key-ID --force 2 file:///mnt/backup
 
 unset PASSPHRASE
 ```
@@ -79,8 +78,7 @@ your gpg key-pair (this one was created in GPG part of this tutorial):
 You can now launch the following command :
 
  ```shell
- duplicity --file-to-restore "path/du/fichier" -t 4D \
-file:///home/save /home/target
+ duplicity --file-to-restore "path/du/fichier" -t 4D file:///home/save /home/target
 ```
 
 * `--file-to-restore` : Permit to specify a specific file to restore. This file must be to the root of the backup.
