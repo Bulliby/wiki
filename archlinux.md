@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2021-04-15T19:31:51.413Z
+date: 2021-04-15T19:33:14.811Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:52.826Z
@@ -10,9 +10,9 @@ dateCreated: 2021-03-30T19:57:52.826Z
 
 # Arch Linux
 
-### Installation
+## Installation
 
-#### Flash media
+### Flash media
 On linux to create a bootable usb stick we can use the following cmd :
 
 ```shell
@@ -27,9 +27,9 @@ For recover a clean usb for other use we need to exec this cmd :
 wipefs --all /dev/sdx
 ```
 
-#### Network
+### Network
 
-##### DHCP client
+#### DHCP client
 
 To obtain an **IP** from a DHCPD server like a **FAI Box** we need to configure each interface to listen for a **dhcp** request. On archlinux we use `systemd-networkd`.
 
@@ -47,7 +47,7 @@ Do the same with this file `/etc/systemd/network/25-wireless.network` who handle
 
 Enable and restart `systemd-networkd.service`.
 
-##### Wifi
+#### Wifi
 
 Use
 ```
@@ -60,14 +60,14 @@ to print the configuration needed. Use it in :
 
 Enable and start the service `wpa_supplicant@interface.service`.
 
-#### Mac
+### Mac
 
 On my mac, who is old, i need an old version of arch linux iso. We can use the iso from this site to find old arch images : [archive img](https://archive.archlinux.org/iso).
 
 > Atm i have test with the image : `archlinux-2016.01.01-dual`
 
 
-#### Bose headeset
+### Bose headeset
 
 Install
 
@@ -88,11 +88,11 @@ Start/enable `bluetooth.service`
 
 Run `bluetoothctl`
 
-#### GeForce RTx2700
+### GeForce RTx2700
 
 Install nvidia proprietary driver.
 > The nouveau seems not work well.
 
-#### Locale (for vim)
+### Locale (for vim)
 
 `~/.config/plasma-localerc` this file override `/etc/locale.conf` so to be able to put LANG to `en_US.UTF-8` we can delete this file.
