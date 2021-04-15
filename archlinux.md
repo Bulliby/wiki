@@ -2,20 +2,15 @@
 title: archlinux
 description: 
 published: true
-date: 2020-12-02T19:46:42.605Z
+date: 2021-04-15T19:31:51.413Z
 tags: 
 editor: markdown
+dateCreated: 2021-03-30T19:57:52.826Z
 ---
 
 # Arch Linux
 
 ### Installation
-
-#### Mac
-
-On my mac, who is old, i need an old version of arch linux iso. We can use the iso from this site to find old arch images : [archive img](https://archive.archlinux.org/iso).
-
-> Atm i have test with the image : `archlinux-2016.01.01-dual`
 
 #### Flash media
 On linux to create a bootable usb stick we can use the following cmd :
@@ -31,6 +26,46 @@ For recover a clean usb for other use we need to exec this cmd :
 ```shell
 wipefs --all /dev/sdx
 ```
+
+#### Network
+
+##### DHCP client
+
+To obtain an **IP** from a DHCPD server like a **FAI Box** we need to configure each interface to listen for a **dhcp** request. On archlinux we use `systemd-networkd`.
+
+Create a file `/etc/systemd/network/20-wired.network` for ethernet interface with this content :
+
+```
+[Match]
+Name=enp1s0
+
+[Network]
+DHCP=yes
+```
+
+Do the same with this file `/etc/systemd/network/25-wireless.network` who handle **wifi** interface.
+
+Enable and restart `systemd-networkd.service`.
+
+##### Wifi
+
+Use
+```
+wpa_passphrase MYSSID passphrase
+```
+
+to print the configuration needed. Use it in :
+
+`/etc/wpa_supplicant/wpa_supplicant-interface.conf` replace interface by your **wifi interface** name do `ip a` to show it.
+
+Enable and start the service `wpa_supplicant@interface.service`.
+
+#### Mac
+
+On my mac, who is old, i need an old version of arch linux iso. We can use the iso from this site to find old arch images : [archive img](https://archive.archlinux.org/iso).
+
+> Atm i have test with the image : `archlinux-2016.01.01-dual`
+
 
 #### Bose headeset
 
