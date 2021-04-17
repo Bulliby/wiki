@@ -2,9 +2,10 @@
 title: Docker
 description: Notes about docker use
 published: true
-date: 2020-10-31T17:03:27.939Z
+date: 2021-04-17T14:28:45.774Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:58:07.459Z
 ---
 
 # Docker
@@ -23,3 +24,16 @@ Il ne peut y avoir qu' **un seul** processus en **background** c'est celui là q
 * `docker container ls -a`
 * `docker images`
 * ` docker exec lfs -it /bin/bash`
+
+# Docker compose
+
+### Volumes
+
+Pour monter un volume externe dans `docker-compose` on peut utiliser les lignes suivantes
+
+```yaml
+volumes:
+  transmission-config:
+    external: true
+    name: transmission-config
+```
