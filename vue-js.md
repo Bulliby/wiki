@@ -2,7 +2,7 @@
 title: vue.js
 description: Note about vue.js developement
 published: true
-date: 2021-04-21T18:52:56.939Z
+date: 2021-04-21T18:54:45.571Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:14.514Z

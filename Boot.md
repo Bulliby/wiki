@@ -2,7 +2,7 @@
 title: Boot
 description: 
 published: true
-date: 2021-04-21T18:53:36.186Z
+date: 2021-04-21T18:55:34.247Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:34.674Z

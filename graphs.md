@@ -2,7 +2,7 @@
 title: graphs
 description: 
 published: true
-date: 2021-04-21T18:54:09.237Z
+date: 2021-04-21T18:56:07.327Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:22.164Z

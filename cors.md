@@ -2,7 +2,7 @@
 title: cors
 description: 
 published: true
-date: 2021-04-21T18:53:53.921Z
+date: 2021-04-21T18:55:51.971Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:00.202Z
