@@ -2,7 +2,7 @@
 title: Shell Book
 description: 
 published: true
-date: 2021-04-21T18:52:44.177Z
+date: 2021-04-21T18:54:32.747Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:56.102Z

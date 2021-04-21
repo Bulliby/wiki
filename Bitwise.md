@@ -2,7 +2,7 @@
 title: Bitwise
 description: Operations on Bit
 published: true
-date: 2021-04-21T18:51:44.935Z
+date: 2021-04-21T18:53:33.574Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:31.062Z
