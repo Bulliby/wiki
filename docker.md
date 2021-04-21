@@ -2,7 +2,7 @@
 title: Docker
 description: Notes about docker use
 published: true
-date: 2021-04-17T14:28:45.774Z
+date: 2021-04-21T18:52:10.213Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:07.459Z

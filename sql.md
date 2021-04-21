@@ -2,9 +2,10 @@
 title: sql
 description: 
 published: true
-date: 2020-10-31T17:04:00.544Z
+date: 2021-04-21T18:52:49.264Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:59:03.612Z
 ---
 
 # SQL

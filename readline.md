@@ -2,9 +2,10 @@
 title: readline
 description: 
 published: true
-date: 2020-10-31T17:03:50.626Z
+date: 2021-04-21T18:52:36.523Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:58:44.601Z
 ---
 
 ## Readline Shortcut

@@ -2,10 +2,10 @@
 title: Advanced Bash Scripting
 description: 
 published: true
-date: 2021-02-22T13:17:03.258Z
+date: 2021-04-21T18:51:57.521Z
 tags: 
 editor: markdown
-dateCreated: 2021-02-22T13:17:03.258Z
+dateCreated: 2021-03-30T19:57:49.171Z
 ---
 
 # TLDP (Advanced Bash Scripting)

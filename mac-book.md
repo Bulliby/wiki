@@ -2,9 +2,10 @@
 title: mac-book
 description: 
 published: true
-date: 2020-10-31T17:03:45.331Z
+date: 2021-04-21T18:52:28.264Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:58:33.464Z
 ---
 
 # MacBook

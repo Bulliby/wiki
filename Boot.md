@@ -2,9 +2,10 @@
 title: Boot
 description: 
 published: true
-date: 2020-11-30T21:41:29.774Z
+date: 2021-04-21T18:51:47.565Z
 tags: 
 editor: markdown
+dateCreated: 2021-03-30T19:57:34.674Z
 ---
 
 # Boot

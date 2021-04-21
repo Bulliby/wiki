@@ -2,9 +2,10 @@
 title: 0ToSysAdmin
 description: 
 published: true
-date: 2020-10-31T17:03:03.703Z
+date: 2021-04-21T18:51:42.455Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:57:26.654Z
 ---
 
 # 0ToSysAdmin

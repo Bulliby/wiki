@@ -2,9 +2,10 @@
 title: php
 description: 
 published: true
-date: 2020-10-31T17:03:47.846Z
+date: 2021-04-21T18:52:33.571Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:58:40.876Z
 ---
 
 # Type Juggling

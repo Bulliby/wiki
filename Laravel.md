@@ -2,9 +2,10 @@
 title: Laravel
 description: 
 published: true
-date: 2020-10-31T17:03:13.423Z
+date: 2021-04-21T18:51:52.567Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:57:41.958Z
 ---
 
 # Laravel

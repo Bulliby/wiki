@@ -2,9 +2,10 @@
 title: Shell
 description: A quick summary of Shell
 published: true
-date: 2020-10-31T17:03:58.172Z
+date: 2021-04-21T18:52:46.816Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:58:59.803Z
 ---
 
 # Shell

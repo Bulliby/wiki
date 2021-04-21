@@ -2,9 +2,10 @@
 title: Eloquent-book
 description: 
 published: true
-date: 2020-10-31T17:03:33.039Z
+date: 2021-04-21T18:52:15.455Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:58:14.759Z
 ---
 
 # Eloquent Javascript Book

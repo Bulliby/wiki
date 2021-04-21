@@ -2,9 +2,10 @@
 title: Debugging
 description: Diverses informations sur les debuggers *nix et Windows.
 published: true
-date: 2020-10-31T17:03:25.536Z
+date: 2021-04-21T18:52:07.691Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:58:03.854Z
 ---
 
 # Debuggers

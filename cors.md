@@ -2,9 +2,10 @@
 title: cors
 description: 
 published: true
-date: 2020-10-31T17:03:23.069Z
+date: 2021-04-21T18:52:05.128Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-03-30T19:58:00.202Z
 ---
 
 # CORS
