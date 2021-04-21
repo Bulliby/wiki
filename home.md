@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2021-04-21T19:17:10.192Z
+date: 2021-04-21T19:25:23.455Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:25.802Z
@@ -22,6 +22,7 @@ dateCreated: 2021-03-30T19:58:25.802Z
 - Set-Cookie: [Set-Cookie](/set-cookie)
 - Vue JS : [Vue-js](/vue-js)
 - Wiki JS : [wikijs](/wikijs)
+- My Gist : [gist](/gist)
 
 # Linux
 
