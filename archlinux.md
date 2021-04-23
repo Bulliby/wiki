@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2021-04-21T18:55:46.804Z
+date: 2021-04-23T18:40:49.914Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:52.826Z
@@ -93,6 +93,18 @@ Run `bluetoothctl`
 Install nvidia proprietary driver.
 > The nouveau seems not work well.
 
-### Locale (for vim)
+# KDE
+
+## Locale (for vim)
 
 `~/.config/plasma-localerc` this file override `/etc/locale.conf` so to be able to put LANG to `en_US.UTF-8` we can delete this file.
+
+## Environnement variable
+
+Put an environnement variable on kde : **Plasma** execute all script in `$HOME/.config/plasma-workspace/env` who end by `.sh`.
+
+You can add an Environnement variable like this :
+
+```bash
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+```
