@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2021-04-21T19:25:43.537Z
+date: 2021-04-24T17:25:54.050Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -11,11 +11,6 @@ dateCreated: 2021-04-21T19:25:43.537Z
 # Steelcheat
 
 ## MySQL
-
-### Connection
-```sql
-mysql -u root -p
-```
 
 ### Tools
 ```sql
@@ -30,14 +25,12 @@ select * from table;
 update table set toto=1 where id=2;
 ```
 
-### Export/Import
-
-#### Export
+### Export
 ```shell
 mysqldump -u YourUser -p YourDatabaseName > wantedsqlfile.sql
 ```
 
-#### Import
+### Import
 ```shell
 mysql -uroot -proot -hlocalhost database < save.sql
 ```
@@ -116,6 +109,12 @@ git am < file.patch
 find . -type f -exec chmod 644 {} \;
 find . -type d -exec chmod 775 {} \;
 ```
+### Path permission
+
+```
+namei -om /etc/nginx
+```
+
 #### Bash history
 
 ```bash
@@ -129,7 +128,7 @@ fc -R
 ```
 
 #### Bash automplete wildcard
-press ALT+* 
+`press ALT+*`
 
 ## ISO
 ```shell
