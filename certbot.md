@@ -2,7 +2,7 @@
 title: certbot
 description: 
 published: true
-date: 2021-04-21T18:55:49.354Z
+date: 2021-04-28T19:14:52.657Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:56.519Z
@@ -39,7 +39,7 @@ utilisation de la commande.
 * `--redirect` : configure le vhost pour redigérer sur **https** quand on demande
 http.
 
-* `--apache` : précise le type de serveur.
+* `--apache ou --nginx` : précise le type de serveur.
 
 * `-d` : précise le nom de domaine. Tel qu' il apparait dans le vhost (*http*).
 si on a un `ServerAlias` en www, on peut ajouter : `-d www.nomdedomain.fr`
