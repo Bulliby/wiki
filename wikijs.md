@@ -2,7 +2,7 @@
 title: Wikijs
 description: 
 published: true
-date: 2021-04-21T19:24:01.835Z
+date: 2021-04-30T19:01:17.026Z
 tags: docker, js, volume, wiki
 editor: markdown
 dateCreated: 2021-04-21T19:18:37.876Z
@@ -24,3 +24,8 @@ To configure the github storage :
 * Create **rsa** public and private key. Put the public key in Settings > Deploy Key. Give write access.
 
 * Put the private key content in wikijs configuration and allow only push to target.
+
+## Md Backup
+
+```
+ * * * * *  su bulliby -c 'SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket rsync -anP --include="*.md" --exclude="*" waxer@wellsguillaume.fr:/var/lib/docker/volumes/wikijs-md/_data/ /home/bulliby/Documents/Markdown/'```
