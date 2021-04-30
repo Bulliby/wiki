@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2021-04-21T18:56:41.254Z
+date: 2021-04-30T19:04:29.213Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:10.773Z
@@ -28,7 +28,7 @@ pacman -U vim-8.1.2268-2-x86_64.pkg.tar.xz vim-runtime-8.1.2268-2-x86_64.pkg.tar
 Apply this patch for lusty explorer : [patch](https://github.com/vim-scripts/LustyExplorer/pull/1/commits/0fb46f6e2e0bcd44094c7d2d959afe156348adcd)
 
 #### Pacman packet update
-Exculde Vim from pacman update add : `/etc/pacman.conf` add : `IgnorePkg   = vim vim-runtime`
+Exculde Vim from pacman update : `/etc/pacman.conf` add : `IgnorePkg   = vim vim-runtime`
 
 ### Compile Vim editor
 
