@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2021-04-23T18:40:49.914Z
+date: 2021-04-30T17:29:40.355Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:52.826Z
@@ -108,3 +108,6 @@ You can add an Environnement variable like this :
 ```bash
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 ```
+
+# Windows Dual Boot
+Pour une cohabitation avec windows et une heure valable dans les deux OS supprimer `/etc/localtime`  afin d'être par défault en **UTC** sur linux.
