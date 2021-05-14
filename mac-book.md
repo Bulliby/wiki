@@ -2,7 +2,7 @@
 title: mac-book
 description: 
 published: true
-date: 2021-04-21T18:56:14.908Z
+date: 2021-05-14T13:53:30.306Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:33.464Z
@@ -18,6 +18,6 @@ Boot from disk. Press `alt option` at boot.
 
 ### Wifi
 
-![Broadcom](/uploads/broadcom.gif "Broadcom")
+![broadcom.gif](/uploads/broadcom.gif)
 
 > The b43-firmware pkg belong to AUR repository and can be genrated by running `makepkg`.
