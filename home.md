@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2021-05-22T16:11:29.882Z
+date: 2021-05-22T16:15:33.230Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:25.802Z
@@ -15,7 +15,6 @@ dateCreated: 2021-03-30T19:58:25.802Z
 - SQL: [SQL](sql)
 - Web Servers : [Web Servers](web-server)
 - Javascript courses: [Javascript](javascript)
-- Installation of vue.js : [Vue.js](vue-js)
 - Vue JS : [Vue-js](/vue-js)
 
 # Security
