@@ -2,7 +2,7 @@
 title: graphs
 description: 
 published: true
-date: 2021-04-21T18:56:07.327Z
+date: 2021-05-22T16:34:01.586Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:22.164Z
@@ -22,7 +22,7 @@ There are represented by ![Bipartgraphe](/uploads/bipartgraphe.png "Bipartgraphe
 
 ## Complete Graphs
 
-There are represented by: ![Graphcomplet](/uploads/graphcomplet.png "Graphcomplet"). And there is : ![Edgeofcompletegraph](/uploads/edgeofcompletegraph.png "Edgeofcompletegraph") edges.
+There are represented by: ![graphcomplet.png](/uploads/graphcomplet.png). And there is : ![Edgeofcompletegraph](/uploads/edgeofcompletegraph.png "Edgeofcompletegraph") edges.
 
 ### Handshake
 
