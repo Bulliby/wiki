@@ -2,7 +2,7 @@
 title: git
 description: Some usefull git's command
 published: true
-date: 2021-06-29T18:50:29.642Z
+date: 2021-06-29T19:09:27.709Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:18.536Z
@@ -30,7 +30,7 @@ git config --global credential.helper 'cache --timeout=3600'
 git push remote_name --delete branch_name
 ```
 
-* Git diff without minus
+* Git diff without minus useful for copy/paste in CLI
 
 ```shell
 git diff --color-words
@@ -76,3 +76,7 @@ After there is according to the list given by the git reflog command. You can se
 ```shell
 git reset HEAD@{8}
 ```
+
+### Init
+
+To init a git repository with a remote we need a inital commit with `ref` to attach on it.
