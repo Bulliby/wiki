@@ -2,7 +2,7 @@
 title: git
 description: Some usefull git's command
 published: true
-date: 2021-04-21T18:56:04.791Z
+date: 2021-06-29T18:50:29.642Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:18.536Z

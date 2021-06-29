@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2021-05-22T16:15:33.230Z
+date: 2021-06-29T18:48:50.623Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:25.802Z

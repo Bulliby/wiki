@@ -2,7 +2,7 @@
 title: Advanced Bash Scripting
 description: 
 published: true
-date: 2021-04-21T18:55:44.182Z
+date: 2021-06-29T18:48:48.290Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:49.171Z

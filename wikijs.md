@@ -2,8 +2,8 @@
 title: Wikijs
 description: 
 published: true
-date: 2021-05-02T08:45:15.586Z
-tags: docker, js, volume, wiki
+date: 2021-06-29T18:48:53.740Z
+tags: wiki, js, docker, volume
 editor: markdown
 dateCreated: 2021-04-21T19:18:37.876Z
 ---

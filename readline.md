@@ -2,7 +2,7 @@
 title: readline
 description: 
 published: true
-date: 2021-04-21T18:56:23.341Z
+date: 2021-06-29T18:48:51.673Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:44.601Z

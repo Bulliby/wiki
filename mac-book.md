@@ -2,7 +2,7 @@
 title: mac-book
 description: 
 published: true
-date: 2021-05-14T13:53:30.306Z
+date: 2021-06-29T18:48:51.040Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:33.464Z

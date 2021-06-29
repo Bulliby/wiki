@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2021-04-30T17:29:40.355Z
+date: 2021-06-29T18:48:48.531Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:52.826Z

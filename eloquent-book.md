@@ -2,7 +2,7 @@
 title: Eloquent-book
 description: 
 published: true
-date: 2021-04-21T18:56:02.237Z
+date: 2021-06-29T18:48:49.773Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:14.759Z

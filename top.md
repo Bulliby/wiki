@@ -2,7 +2,7 @@
 title: Top
 description: Configuring and use Linux's top
 published: true
-date: 2021-04-21T18:56:38.669Z
+date: 2021-06-29T18:48:52.931Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:07.153Z
