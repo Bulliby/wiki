@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2021-06-29T18:48:50.623Z
+date: 2021-07-07T17:00:56.363Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:25.802Z
@@ -46,6 +46,7 @@ dateCreated: 2021-03-30T19:58:25.802Z
 - Git: [Git](git)
 - Grub: [Boot](Boot)
 - Docker: [Docker](docker)
+- Systemd : [systemd](systemd)
 
 # Others
 
