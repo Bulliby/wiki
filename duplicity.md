@@ -2,7 +2,7 @@
 title: duplicity
 description: 
 published: true
-date: 2021-06-29T18:48:49.565Z
+date: 2021-07-21T12:09:00.709Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:10.993Z
@@ -68,7 +68,7 @@ unset PASSPHRASE
 Enter the keyID and configure the backup as your need with the duplicity
 [reference](http://duplicity.nongnu.org/duplicity.1.html).
 
-## Restore a file system backup
+### Restore a file system backup
 
 If your are not on the host where the key-pair is saved. You have to restore
 your gpg key-pair (this one was created in GPG part of this tutorial):
@@ -89,10 +89,49 @@ You can now launch the following command :
 
 * `-t 4D` : Say to restore the backup like it was 4 days ago.
 
-### Suppress imported key-pair on backup device
+#### Suppress imported key-pair on backup device
 
 If you restored the backup from the backup device :
 
 Don't forget to suppress the key-pair you imported earlier :
 
 `gpg -delete-secret-and-public-key KeyId`
+
+## Home save on external HDD
+
+### Backup
+
+```bash
+#!/bin/bash
+
+if [[ ! -d /root/mymount/save ]]
+then
+    echo "Ton disque n'est pas monté"
+    exit 1
+fi
+
+echo "Open keepass to save Hancock files  ? (Yes/No)"
+read answer
+
+if [[ $answer == "Yes" ]]; then
+    rsync -qe "ssh -i ~/.ssh/id_hancock_root -p 14498" root@wellsguillaume.fr:/root/bkp-han.tar /home/bulliby/Documents/
+    if [[ $? -eq 0 ]] 
+    then
+        echo "Hancock havent been save"
+    fi
+fi
+
+echo "################## The save is starting ################################"
+
+duplicity --full-if-older-than 6M --include-filelist /home/bulliby/.files-save --progress --no-encryption / file:///root/mymount/save
+duplicity remove-all-but-n-full 2 --force --progress file:///root/mymount/save
+
+echo "################# The save is done ####################################"
+
+```
+
+### Restore
+
+```bash
+duplicity --file-to-restore "/home/bulliby/Documents/bkp-han.tar" --no-encryption file:///root/mymount/save /home/bulliby/bkp-han.tar
+```
