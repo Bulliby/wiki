@@ -2,7 +2,7 @@
 title: reverse-engineering
 description: 
 published: true
-date: 2021-07-28T19:54:17.848Z
+date: 2021-07-28T19:54:48.204Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:48.804Z
@@ -14,13 +14,13 @@ dateCreated: 2021-03-30T19:58:48.804Z
 
 ### Byte || octet
 
+> Pour résumer on a :  8 bits = 1 Byte = 1 Octect
+
 * 1 bit correspond à une unité possédant soit la valeur 0 soit la valeur 1.
 
 Un ordinateur base ses calculs sur 8 de ses unités que l'on nomme Byte ou Octect. 
 
 ### Multiple
-
-> Pour résumer on a :  8 bits = 1 Byte = 1 Octect
 
 Ces multiples peuvent être pour le kilo :
 
