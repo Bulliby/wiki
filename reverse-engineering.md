@@ -2,7 +2,7 @@
 title: reverse-engineering
 description: 
 published: true
-date: 2021-06-29T18:48:51.881Z
+date: 2021-07-28T19:41:49.853Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:48.804Z
@@ -15,11 +15,24 @@ dateCreated: 2021-03-30T19:58:48.804Z
 <!-- SUBTITLE: Some note about Reverse Engineering who aim explore deep computer's architecture -->
 
 
-### Notation
+
+## Notation
+
+### Byte || octet
 
 * 1 bit correspond à une unité possédant soit la valeur 0 soit la valeur 1.
 
 Un ordinateur base ses calculs sur 8 de ses unités que l'on nomme Byte ou Octect. 
+
+### Multiple
+
+Ces multiples peuvent être pour le kilo :
+
+* ko pour kilooctet base 10 (10^3 octets	= 1000 octets)
+* kio ou Ko pour kibioctet base 2 (2^10 octets = 1024 octets)
+* kB pour kilobyte base 10 (10^3 bytes = 1000 bytes)
+* KiB pour kibibyte base 2 (10^2 bytes = 1024 bytes)
+ 
 
 > Pour résumer on a :  8 bits = 1 Byte = 1 Octect
 
