@@ -2,19 +2,13 @@
 title: reverse-engineering
 description: 
 published: true
-date: 2021-07-28T19:42:30.291Z
+date: 2021-07-28T19:54:17.848Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:48.804Z
 ---
 
 # Reverse engineering
-> Ces notes reflètent mes connaissances actuelles et ne sont pas forcément exactes...
-
-<!-- TITLE: Reverse Engineering -->
-<!-- SUBTITLE: Some note about Reverse Engineering who aim explore deep computer's architecture -->
-
-
 
 ## Notation
 
@@ -26,21 +20,25 @@ Un ordinateur base ses calculs sur 8 de ses unités que l'on nomme Byte ou Octec
 
 ### Multiple
 
+> Pour résumer on a :  8 bits = 1 Byte = 1 Octect
+
 Ces multiples peuvent être pour le kilo :
 
 * ko pour kilooctet base 10 (10^3 octets	= 1000 octets)
 * kio ou Ko pour kibioctet base 2 (2^10 octets = 1024 octets)
 * kB pour kilobyte base 10 (10^3 bytes = 1000 bytes)
 * KiB pour kibibyte base 2 (10^2 bytes = 1024 bytes)
- 
 
-> Pour résumer on a :  8 bits = 1 Byte = 1 Octect
+### Word
 
-### Mémoire Virtuelle vs Mémoire Physique
+Un `word` est la quantié maximal de données sur laquelle travail le processeur : 8bit, 16bit, 32bit ...
+
+
+## Mémoire Virtuelle vs Mémoire Physique
 
 Le système d'exploitation ne donne pas directement accès à sa mémoire physique. Il crée un système d'adressage virtuel qu'il connecte à la mémoire physique, c'est la *Mémoire Virtuelle* .
 
-### Mémoire et Processus
+## Mémoire et Processus
 
 La *mémoire virtuelle* est chargée dans chaque processus. Avec un espace d'adressage correspondant à l'architecture du processeur.
 
@@ -48,7 +46,7 @@ La *mémoire virtuelle* est chargée dans chaque processus. Avec un espace d'adr
 
 Chaque processus possède sa propre mémoire virtuelle évitant ainsi les conflits. C'est le système d'exploitation qui si charge de placer la data dans un endroit libre de la RAM s'il en reste. 
 
-### Binaires
+## Binaires
 
 * Dans un système **Windows** les binaires sont appellés exécutables et possèdent l'extension *.exe*.
 * Dans un système **OsX** les binaires sont connus sous le format *Mach-O*.
@@ -56,7 +54,7 @@ Chaque processus possède sa propre mémoire virtuelle évitant ainsi les confli
 
 Ces formats de fichier possèdent leur propre architecutre.
 
-### Zones Mémoire d'un Processus
+## Zones Mémoire d'un Processus
 
 ![Process Memory Layout](/uploads/process-memory-layout.png "Process Memory Layout"){.align-left}
 
@@ -69,11 +67,11 @@ Pour être éxécuté, le code d'un binaire doit tout d'abord être chargé dans
 * Il y a ensuite les librairies partagées et un vide qui séparent les sections précedentes, de la suivante.
 * La *Stack* : Contient toutes les variables crées statiquement.
 
-### Indexation des Zones Mémoires
+## Indexation des Zones Mémoires
 
 Les zones mémoires précédentes apparaissent toujours dans cette ordre dans un système **Linux**. La partie haute avant l'espace vide est adressée de haut en bas. La partie basse (*La Stack*) est adressée de bas en haut. L'espace entre les deux parties haute et basse de la mémoire d'un processus, a tendance à se réduire. Du fait de cet indexation par le bas, les adresses de la stack sont très élevées.
 
-### Buffer Overflow
+## Buffer Overflow
 
 Quand on effectue un **Buffer Overflow** avec un code de type : 
 
