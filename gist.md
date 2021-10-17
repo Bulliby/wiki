@@ -2,15 +2,15 @@
 title: Gist
 description: 
 published: true
-date: 2021-06-29T18:48:49.998Z
+date: 2021-10-17T14:57:19.850Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
 ---
 
-# Steelcheat
+#  Cheat Sheet
 
-## MySQL
+## MySQL CLI
 
 ### Tools
 ```sql
@@ -18,16 +18,15 @@ show tables;
 show databases;
 use database;
 ```
-### Commons
-```sql
-show columns from <database>;
-select * from table;
-update table set toto=1 where id=2;
-```
 
 ### Export
 ```shell
 mysqldump -u YourUser -p YourDatabaseName > wantedsqlfile.sql
+```
+
+#### Compressed
+```shell
+TODO
 ```
 
 ### Import
@@ -35,61 +34,67 @@ mysqldump -u YourUser -p YourDatabaseName > wantedsqlfile.sql
 mysql -uroot -proot -hlocalhost database < save.sql
 ```
 
+
 ### Users Creation
 
 #### Locally
 ```sql
-CREATE USER 'jeffrey'@'localhost' IDENTIFIED BY 'mypass';
-GRANT ALL ON db1.* TO 'jeffrey'@'localhost';
+CREATE USER 'waxer'@'localhost' IDENTIFIED BY 'mypass';
+GRANT ALL ON db1.* TO 'waxer'@'localhost';
 ```
-#### Remotely
-```sql
-CREATE USER 'jeffrey'@'%' IDENTIFIED BY 'mypass';
-GRANT ALL ON db1.* TO 'jeffrey'@'%';
-```
-#### Flush is needed
+
+> For remote use `%`
+
+### Flush
 ```sql
 FLUSH PRIVILEGES;
 ```
 
 ## Ssh
 
-### Ssh agent
+### Generate ssh keys
 
 ```shell
-# Generate ssh key
 ssh-keygen -t rsa -a 100 -b 4096 -f id_rsa
-ssh-agent /bin/zsh
-# Regenerate pub from pivate 
-ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
 ```
 
-### Screen
+### Regenerate pub key from private one
+
 ```shell
-#Shared screen
+ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
+```
+> Todo check if it's the same
+
+## Screen
+
+#### Shared screen
+```shell
 screen -d -m -S shared
 ```
 
-## RSYNC
+#### Nested screen
 
-### Save
-```shell
-rsync -rtvs --progress --delete --force --exclude 'vendor' --exclude '.git' --exclude 'Trash'  --files-from=.save_rsync ~/ user@host:folder
 ```
+Ctrl + A + A + D in place of Ctrl + A + D
+```
+
+## Rsync
 
 ## Git
 
 ### Usefull commmands
 
 ``` shell
+# For deprecated HTTPS
 git config --global credential.helper 'cache --timeout=3600'
 git push <remote_name> --delete <branch_name>
+# Remove `-|+` from output
 git diff --color-words
-git config --list | grep crlf
-git diff @{1}..
-git pull --rebase <remote-name> <branch-name>
+# Reminder ("A dog")
 git log --graph --oneline --decorate --all
+# Rebase from a given base (Awesome...)
 git rebase --onto newBase oldBase feature/branch
+# `n` for dry run
 git clean -dfn
 ```
 
@@ -100,53 +105,82 @@ git format-patch -1 <sha>
 git am < file.patch
 ```
 
-## Shell
+## Find
 
-### Permissions
-
-#### File permission
+### File and directory permissions
 ```shell
 find . -type f -exec chmod 644 {} \;
 find . -type d -exec chmod 775 {} \;
 ```
-### Path permission
+> `{}` represent the find iterated value
+
+### delete symlink with no target
+
+```shell
+find -L . -name . -o -type d -prune -o -type l -exec rm {} +
+```
+
+### Path permissions
 
 ```
 namei -om /etc/nginx
 ```
 
-#### Bash history
+## Bash
+
+### History
 
 ```bash
+# Append
 history -a
+# Read
 history -r
 ```
-#### Zsh history
+
+### Expand on current line
+
+`press ALT+*`
+
+## Zsh
+
+### Zsh history
+
 ```zsh
+# Append
 fc -A
+# Read
 fc -R
 ```
 
-#### Bash automplete wildcard
-`press ALT+*`
+## DD
 
-## ISO
+### Archlinux image
+
 ```shell
 dd bs=4M if=/home/bulliby/Downloads/archlinux-2018.01.01-x86_64.iso of=/dev/sdx status=progress && sync
 ```
 
-## Suppress Symlink with no target
+### Recover a disk
+
 ```shell
-find -L . -name . -o -type d -prune -o -type l -exec rm {} +
+dd if=/dev/sdX of=/dev/sdX conv=noerror,sync status=progress
 ```
+> Block size must be default (512)
 
 ## ArchLinux
 
 ### Pacman
 
+#### Clear package cache
+
 ```shell
-# Clear package's cache
 pacman -Scc
+```
+> Usefull if `/var` is full
+
+#### Obtain user's package inforamtions
+
+```shell
 # List explicitly installed packages
 # -i stand for info
 pacman -Qeti | less
@@ -158,16 +192,20 @@ pacman -Qdt | cut -d" " -f 1 | pacman -Rs -
 
 ### Hex editor
 
-#### Enter hex editor
+#### Convert to HEX
+
 ```vim
 :%!xxd
 ```
-#### Escape hex editor
+
+#### Convert to Binary
+
 ```vim
 :%!xxd -r
 ```
 
 ### Fold
+
 **Create** Fold :
 `zf` on current selection
 
@@ -175,9 +213,11 @@ pacman -Qdt | cut -d" " -f 1 | pacman -Rs -
 `zo`, `zc`
 
 ## Python
+
 ```
 python setup.py install --user
 ```
+
 ### Pip
 Use local env for pip install file .local/lib ...
 ```shell
