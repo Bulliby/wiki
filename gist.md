@@ -2,13 +2,13 @@
 title: Gist
 description: 
 published: true
-date: 2021-10-17T14:57:19.850Z
+date: 2021-10-17T15:00:46.356Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
 ---
 
-#  Cheat Sheet
+# Cheat Sheet
 
 ## MySQL CLI
 
@@ -240,3 +240,15 @@ docker volume prune
 Key `X-Requested-With` Value `XMLHttpRequest`
 
 > In headers
+
+## Linux
+
+### Set keyboard Layout
+
+#### For current session
+
+```shell
+localectl set-keymap us
+```
+
+> To persist edit or create `/etc/vcsonsole.conf`
