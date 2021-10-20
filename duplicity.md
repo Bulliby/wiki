@@ -2,7 +2,7 @@
 title: duplicity
 description: 
 published: true
-date: 2021-07-21T12:09:00.709Z
+date: 2021-10-20T21:41:53.355Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:10.993Z
@@ -114,8 +114,8 @@ echo "Open keepass to save Hancock files  ? (Yes/No)"
 read answer
 
 if [[ $answer == "Yes" ]]; then
-    rsync -qe "ssh -i ~/.ssh/id_hancock_root -p 14498" root@wellsguillaume.fr:/root/bkp-han.tar /home/bulliby/Documents/
-    if [[ $? -eq 0 ]] 
+    rsync -e "ssh -i ~/.ssh/id_hancock_root -p 14498" root@wellsguillaume.fr:/root/bkp-han.tar /home/bulliby/Documents/
+    if [[ $? -ne 0 ]] 
     then
         echo "Hancock havent been save"
     fi
