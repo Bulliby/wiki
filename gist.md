@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2021-10-17T15:00:46.356Z
+date: 2021-10-20T20:22:33.632Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -96,6 +96,10 @@ git log --graph --oneline --decorate --all
 git rebase --onto newBase oldBase feature/branch
 # `n` for dry run
 git clean -dfn
+# Création remote
+git init --bare /howe/guillaume/gittest.git
+# Remote sur port ssh
+git remote add origin ssh://guillaume@wellsguillaume.fr:12345/home/guillaume/git/gittest.git
 ```
 
 Create a patch of one commit and apply it :
