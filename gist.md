@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2021-10-20T20:22:49.255Z
+date: 2021-10-20T20:50:33.088Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -100,6 +100,10 @@ git clean -dfn
 git init --bare /howe/guillaume/gittest.git
 # Remote sur port ssh
 git remote add origin ssh://guillaume@wellsguillaume.fr:12345/home/guillaume/git/gittest.git
+# Git commit history
+git checkout HEAD~1
+# Git reflog history
+git checkout HEAD@{1}
 ```
 
 Create a patch of one commit and apply it :
