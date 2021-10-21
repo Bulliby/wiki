@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2021-10-20T21:01:39.553Z
+date: 2021-10-21T19:10:43.582Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -26,7 +26,7 @@ mysqldump -u YourUser -p YourDatabaseName > wantedsqlfile.sql
 
 #### Compressed
 ```shell
-TODO
+gunzip -c mysqldump-glpi-20211004-050001.sql.gz | mysql -u root -p glp
 ```
 
 ### Import
