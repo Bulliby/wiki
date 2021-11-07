@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2021-06-29T18:48:48.531Z
+date: 2021-11-07T14:25:22.121Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:52.826Z
@@ -111,3 +111,29 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 # Windows Dual Boot
 Pour une cohabitation avec windows et une heure valable dans les deux OS supprimer `/etc/localtime`  afin d'être par défault en **UTC** sur linux.
+
+# Belote
+
+## Installation
+
+Utiliser le repository **AUR** :
+
+* https://aur.archlinux.org/packages/jdk6
+
+Télécharger le binaire à placer dans à la racine du *répertoire de build* :
+
+* https://gitlab.com/linusdan/jdk-oracle-6u45-x86_64-linux/-/raw/primary/jdk-6u45-linux-x64.bin
+
+Construire le package...
+
+Télécharger le fichier **jnlp** et lancer le.
+
+## Choisir la version java par défaut :
+
+```bash
+archlinux-java set java-6-jdk
+```
+
+## Références
+
+* https://wiki.archlinux.org/title/java
