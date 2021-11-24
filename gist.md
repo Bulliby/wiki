@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2021-10-21T19:10:43.582Z
+date: 2021-11-24T21:20:23.439Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -260,3 +260,11 @@ localectl set-keymap us
 ```
 
 > To persist edit or create `/etc/vcsonsole.conf`
+
+## Iptables
+
+```
+iptables -L -n --line-numbers
+iptables -D OUTPUT 3
+iptables-save -f /etc/iptables/iptables.rules
+```
