@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2021-11-24T21:20:23.439Z
+date: 2021-11-24T21:21:00.311Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -267,4 +267,5 @@ localectl set-keymap us
 iptables -L -n --line-numbers
 iptables -D OUTPUT 3
 iptables-save -f /etc/iptables/iptables.rules
+iptables-restore /etc/iptables/iptables.rules
 ```
