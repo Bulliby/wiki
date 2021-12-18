@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2021-06-29T18:48:53.140Z
+date: 2021-12-18T22:00:52.503Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:10.773Z
@@ -12,53 +12,33 @@ dateCreated: 2021-03-30T19:59:10.773Z
 
 ## Installation
 
+### Download
+
 Get the PKGBUILD from the official archlinux's repository. See : 
 
-[archlinux.fr](https://wiki.archlinux.fr/Pacman#R.C3.A9cup.C3.A9rer_les_sources_d.27un_paquet)
+[archlinux.fr](https://wiki.archlinux.org/title/Pacman_(Fran%C3%A7ais)#R.C3.A9cup.C3.A9rer_les_sources_d.27un_paquet)
 
-You can find a PKGBUILD sample here [github](https://github.com/Bulliby/Pkgbuild/blob/master/vim/PKGBUILD)
+> (C'est moi qui ai fait ce bout de doc. À l'origine sur archlinux.fr)
 
 To install with Pacman :
 
 ```shell
 pacman -U vim-8.1.2268-2-x86_64.pkg.tar.xz vim-runtime-8.1.2268-2-x86_64.pkg.tar.xz
 ```
+### Pacman packet update
+Exculde Vim from pacman update : `/etc/pacman.conf` add : `IgnorePkg   = vim vim-runtime`
+
 #### Bundle
+
+#### Lusty Explorer
 
 Apply this patch for lusty explorer : [patch](https://github.com/vim-scripts/LustyExplorer/pull/1/commits/0fb46f6e2e0bcd44094c7d2d959afe156348adcd)
 
-#### Pacman packet update
-Exculde Vim from pacman update : `/etc/pacman.conf` add : `IgnorePkg   = vim vim-runtime`
+### Compile Vim editor (at home)
 
-### Compile Vim editor
+Edit the **PKGBUILD** after have clone the offcial projetc [see above]()
 
-> Here we compile the editor and use it with the host's vim runtime
-
-```shell
-./configure \
-      --prefix=/usr \
-      --localstatedir=/var/lib/vim \
-      --with-features=huge \
-      --with-compiledby='Guillaume Wells' \
-      --enable-gpm \
-      --enable-acl \
-      --with-x=yes \
-      --disable-gui \
-      --enable-multibyte \
-      --enable-cscope \
-      --enable-netbeans \
-      --enable-perlinterp=dynamic \
-      --enable-pythoninterp=dynamic \
-      --enable-python3interp=dynamic \
-      --enable-rubyinterp=dynamic \
-      --enable-luainterp=dynamic \
-      --enable-tclinterp=dynamic \
-      --disable-canberra
-    make VIMRUNTIMEDIR=HOST_VIM_RUNTIME_PATH
-
-```
-
-Replace HOST_VIM_RUNTIME_PATH by the path of your vim runtime instance. To get it `:echo $VIMRUNTIME` in the cli of Vim.
+* modify the `with-x` option to yes to allow clipboard copy and past
 
 ### Compile Vim editor (work)
 
