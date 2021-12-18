@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2021-12-18T22:01:20.189Z
+date: 2021-12-18T22:02:06.794Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:10.773Z
@@ -36,7 +36,7 @@ Apply this patch for lusty explorer : [patch](https://github.com/vim-scripts/Lus
 
 ### Compile Vim editor (at home)
 
-Edit the **PKGBUILD** after have clone the offcial projetc [see above](/en/vim#Installation)
+Edit the **PKGBUILD** after have clone the offcial projetc [see above](/en/vim#installation)
 
 * modify the `with-x` option to yes to allow clipboard copy and past
 
