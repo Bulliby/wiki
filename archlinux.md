@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2021-11-07T14:25:22.121Z
+date: 2021-12-21T23:20:26.086Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:52.826Z
@@ -137,3 +137,9 @@ archlinux-java set java-6-jdk
 ## Références
 
 * https://wiki.archlinux.org/title/java
+
+# Nextcloud
+
+## Kwallet
+
+**Kwallet** permet d'enregistrer le mot de passe Nextcloud et de l'utiliser au démarrage avec le paquet `kwallet-pam`. Le mot de passe se configure à la première utilisation. Ou alors avec le paquet `kwalletmannager`, il doit être le même que celui de la session.
