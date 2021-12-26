@@ -2,7 +2,7 @@
 title: Docker
 description: Notes about docker use
 published: true
-date: 2021-12-26T10:55:52.825Z
+date: 2021-12-26T11:23:33.588Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:07.459Z
@@ -32,6 +32,18 @@ Il ne peut y avoir qu' **un seul** processus en **background** c'est celui là q
 ```bash
 /var/lib/docker/containers/<container id>/<container id>-json.log
 ```
+
+### Conf
+
+Par défault j'ai mis dans `/etc/docker/deamon.json` :
+
+```json
+{
+		"log-driver": "local"
+}
+```
+
+J'obtiens en retour un binaire. Seulement lisible par la commande `docker logs "containername"` mais optimisé et avec rotation.
 
 # Docker compose
 
