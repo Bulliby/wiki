@@ -2,7 +2,7 @@
 title: Backtracking
 description: 
 published: true
-date: 2021-12-18T22:15:32.672Z
+date: 2021-12-26T10:33:36.168Z
 tags: algorithme, récursif
 editor: markdown
 dateCreated: 2021-12-18T22:15:32.672Z
@@ -71,3 +71,5 @@ int match(char *s1, char *s2, int count, size_t max)
 }
 
 ```
+
+L'avantage de cette méthode en comporaison d'une méthode de brute force comme 42 nous demande de réaliser est le nombre beaucoup plus petit, d'appel à la fonction récursive : sur une grande phrase avec beaucoup de wildecards.
