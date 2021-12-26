@@ -2,7 +2,7 @@
 title: Docker
 description: Notes about docker use
 published: true
-date: 2021-06-29T18:48:49.356Z
+date: 2021-12-26T10:55:52.825Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:07.459Z
@@ -24,6 +24,14 @@ Il ne peut y avoir qu' **un seul** processus en **background** c'est celui là q
 * `docker container ls -a`
 * `docker images`
 * ` docker exec lfs -it /bin/bash`
+
+## Logs
+
+### Emplacement
+
+```bash
+/var/lib/docker/containers/<container id>/<container id>-json.log
+```
 
 # Docker compose
 
