@@ -2,7 +2,7 @@
 title: Docker
 description: Notes about docker use
 published: true
-date: 2021-12-26T11:23:33.588Z
+date: 2021-12-26T11:24:32.658Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:07.459Z
@@ -28,6 +28,8 @@ Il ne peut y avoir qu' **un seul** processus en **background** c'est celui là q
 ## Logs
 
 ### Emplacement
+
+> Les logs du **Docker** ne se trouve pas dans le container mais dans le **host**.
 
 ```bash
 /var/lib/docker/containers/<container id>/<container id>-json.log
