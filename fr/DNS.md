@@ -2,8 +2,8 @@
 title: DNS
 description: 
 published: true
-date: 2021-07-17T17:09:29.767Z
-tags: systemd, dns, domain, resolver, cache, fqdn
+date: 2021-12-28T22:31:55.979Z
+tags: cache, dns, domain, fqdn, resolver, systemd
 editor: markdown
 dateCreated: 2021-07-17T17:09:29.767Z
 ---
@@ -19,11 +19,13 @@ Le DNS *(Domain Name System)* fait la relation entre une **IP** *(Internet Proto
 Prenons l’URL suivante : `www.google.fr`. Nous avons :
 
 * `www` nom de la machine
-* `google.fr` nom de domaine
+* `google` nom de domaine
+* `fr` nom domaine de premier niveau
 
 `www.google.fr.` est un **FQDN**
 
-> On ne peut jamais réellement savoir si nous sommes face à un **FQDN** car on ne peut pas savoir si `www.google.fr` n'est pas lui même un **domain** qui possède une machine *toto* qui aurait pour **FQDN** `toto.www.google.fr.`
+> Nous ne pouvons jamais avoir la certitude que nous sommes en présence d'un **FQDN**, nous ne pouvons assurer qu'il n'y a pas un préfixe à ce que nous pensons être un FQDN.
+
 
 ### Fichier Host
 
@@ -35,6 +37,25 @@ Chaque utilisateur téléchargeait la liste des IP des 213 machines existantes s
 Les noms de domaines sont une arborescence on interroge d'abord le serveur racine `.` puis le domaine `fr`, puis `google` *etc...*.
 
 > Chaque serveur connaît seulement les domaines sous son propre domaine.
+
+Ou peut tracer ces appels avec la commande suivante :
+
+```bash
+drill -T [-V 5] www.google.com
+```
+
+### 2 Types de requêtes
+
+* Récursive
+* Itérative
+
+La **requête récursive** apporte une réponse exacte. Le client n'a pas besoin de d’effectuer lui même une autre requête pour obtenir une réponse.
+
+Avec la **requête itérative** on obtient une réponse partielle. Si le serveur ne connaît pas la réponse il envoie un **referral** qui est l'adresse d'un serveur qui devrait avoir la réponse.
+
+### Fonctionnement courant
+
+Le client effectue une requête récursive au serveur DNS. Si le serveur ne peut pas apporter la réponse directement il fait une requête itérative à un serveur qui devrait avoir la réponse. Si celui-ci à la réponse il l'envoie ou donne un **referral** qui sera utilisé dans une nouvelle requête itérative par le serveur	 et ainsi de suite.
 
 ### 2 Types de service
 
