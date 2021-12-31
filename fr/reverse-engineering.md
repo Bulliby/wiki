@@ -2,7 +2,7 @@
 title: reverse-engineering
 description: 
 published: true
-date: 2021-07-28T19:54:48.204Z
+date: 2021-12-31T18:00:32.548Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:48.804Z
@@ -82,5 +82,8 @@ printf("%c\n", buffer[x]);
 ```
 
 * Si `x` dépasse *64* nous parcourons la pile à contre-courant pour écraser les variables dont les adresses sont plus haute que la fin du buffer.
+
+> Nous parcourons la pile a **contre courant** car l'allocation des cases mémoire se fait dans le sens de la stack mais leur remplissage dans le sens courant et inverse. [[1]](https://security.stackexchange.com/questions/135786/if-the-stack-grows-downwards-how-can-a-buffer-overflow-overwrite-content-above)
+
 * Si `x` est inférieur à *0* alors nous parcourons la pile dans son sens et nous écrasons les variables situées plus basses que le debut du buffer.
 > L'origine est toujours le buffer qu'on *Overflow*
