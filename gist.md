@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2021-11-24T21:21:00.311Z
+date: 2021-12-31T13:47:32.102Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -257,6 +257,12 @@ Key `X-Requested-With` Value `XMLHttpRequest`
 
 ```shell
 localectl set-keymap us
+```
+
+### Pacman
+
+```bash
+git clone --branch packages/nom_du_paquet --single-branch https://github.com/archlinux/svntogit-packages nom_du_paquet
 ```
 
 > To persist edit or create `/etc/vcsonsole.conf`
