@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2022-01-06T20:21:18.497Z
+date: 2022-01-06T20:27:33.815Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
