@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2021-12-31T13:47:32.102Z
+date: 2022-01-06T20:21:18.497Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -104,6 +104,8 @@ git remote add origin ssh://guillaume@wellsguillaume.fr:12345/home/guillaume/git
 git checkout HEAD~1
 # Git reflog history
 git checkout HEAD@{1}
+# Clone with a specific key (from Git 2.3.0)
+GIT_SSH_COMMAND='ssh -i ~/.ssh/id_github_ro' git clone git@github.com:Bulliby/DotFiles.git
 ```
 
 Create a patch of one commit and apply it :
