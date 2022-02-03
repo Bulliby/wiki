@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2022-02-03T16:43:23.350Z
+date: 2022-02-03T16:44:27.317Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -200,15 +200,13 @@ pacman -Qdt | cut -d" " -f 1 | pacman -Rs -
 
 ## Vim
 
-### Hex editor
-
-#### Convert to HEX
+### Convert to HEX
 
 ```vim
 :%!xxd
 ```
 
-#### Convert to Binary
+### Convert to Binary
 
 ```vim
 :%!xxd -r
@@ -221,6 +219,12 @@ pacman -Qdt | cut -d" " -f 1 | pacman -Rs -
 
 **Open** Close Fold : 
 `zo`, `zc`
+
+### Pure vim
+
+```bash
+vim -u NONE
+```
 
 ## Python
 
