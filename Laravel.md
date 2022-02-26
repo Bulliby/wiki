@@ -2,7 +2,7 @@
 title: Laravel
 description: 
 published: true
-date: 2021-06-29T18:48:47.881Z
+date: 2022-02-26T18:39:28.451Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:41.958Z
@@ -12,10 +12,10 @@ dateCreated: 2021-03-30T19:57:41.958Z
 
 ## Change default App Namespace
 
-To replace the App namespace in the current code : 
+To replace the `App` namespace in the current code : 
 
 ```shell
-sed  's/App\\/Belotte\\/' `find app -type f`
+sed  's|App/NewNameSpace|' `find app -type f`
 ```
 
 With `-i` option to persist in file.
@@ -31,7 +31,7 @@ To replace the folder `app` with a custom name you can override the class :
 
 `vendor/laravel/framework/src/Illuminate/Foundation/Application.php`
 
-in `bootstrap/app.php`, not tested yer.
+in `bootstrap/app.php`, not tested yet.
 
 ## Difference between timestamp and datetime in migration
 
