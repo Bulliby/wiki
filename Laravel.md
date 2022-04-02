@@ -1,8 +1,8 @@
 ---
 title: Laravel
 description: 
-published: true
-date: 2022-04-02T18:02:28.531Z
+published: false
+date: 2022-04-02T18:06:28.045Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:41.958Z
