@@ -1,8 +1,8 @@
 ---
 title: sql
 description: 
-published: true
-date: 2022-04-02T18:13:36.311Z
+published: false
+date: 2022-04-02T18:13:51.910Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:03.612Z
