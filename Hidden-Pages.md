@@ -1,8 +1,8 @@
 ---
 title: Hidden Pages
 description: Page only readable by admin
-published: false
-date: 2022-04-02T18:18:14.956Z
+published: true
+date: 2022-04-02T18:37:03.124Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-02T18:15:48.218Z
