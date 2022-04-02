@@ -2,7 +2,7 @@
 title: php
 description: 
 published: true
-date: 2021-06-29T18:48:51.465Z
+date: 2022-04-02T18:12:46.798Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:40.876Z
@@ -10,7 +10,7 @@ dateCreated: 2021-03-30T19:58:40.876Z
 
 # Type Juggling
 
-Type **juggling** is an *implicit cast* who appear when manipulating variables. Like PHP isn't explicitly typed implicit cast happen. The type of a variable is set in function of context of the variable.
+Type **juggling** is an *implicit cast* who appear when manipulating variables. The type of a variable is set in function of context of the variable.
 
 ##### Example of type juggling (on assignation):
 
@@ -81,22 +81,20 @@ On certain function we can find in the PHP's **documentation** an advertisement 
 
 This is the case with the [reset](https://www.php.net/manual/fr/function.reset.php) function.
 
-## Security
-
-Type juggling or loose comparison don't expose the developer to security issue in general becasue the HTTP's input are always string. Nevertheless this can happen by JSON parsing of response or cookie. Check the reference.
 
 ## References
-[type juggling](https://www.php.net/manual/fr/language.types.type-juggling.php) ; [security](https://www.php.net/manual/fr/language.types.type-juggling.php) ; [reset](https://www.php.net/manual/fr/function.reset.php)
+* [type juggling](https://www.php.net/manual/fr/language.types.type-juggling.php) 
+* [security](https://www.php.net/manual/fr/language.types.type-juggling.php)
+* [reset](https://www.php.net/manual/fr/function.reset.php)
 
 ## Notes
+
 You can incrment a string
 
 ```php
 	$string = 'deuw';
 	echo ++$strig; //deux
 ```
-
-> The `+=1` however throw a warning and change the type of the variable.
 
 # Ternary operator
 
