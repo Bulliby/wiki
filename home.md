@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2022-04-03T13:05:37.019Z
+date: 2022-04-03T13:06:40.397Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:25.802Z
@@ -12,8 +12,6 @@ dateCreated: 2021-03-30T19:58:25.802Z
 
 - PHP: [PHP](php)
 - Web Servers : [Web Servers](web-server)
-- SQL: [SQL](sql)
-- Laravel [Laravel)(Laravel)
 - Javascript courses: [Javascript](javascript)
 - Vue JS : [Vue-js](/vue-js)
 - Backtracking : [Backtracking](/en/backtracking)
