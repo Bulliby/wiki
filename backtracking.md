@@ -2,7 +2,7 @@
 title: Backtracking
 description: 
 published: true
-date: 2021-12-26T10:33:36.168Z
+date: 2022-04-03T08:24:53.097Z
 tags: algorithme, récursif
 editor: markdown
 dateCreated: 2021-12-18T22:15:32.672Z
@@ -14,20 +14,22 @@ dateCreated: 2021-12-18T22:15:32.672Z
 
 ### Objectif
 
-Le but ici est de résoudre le projet match de la piscine 42. Je m'éloigne un peu de la solution proposé par la plupart des étudiants qui consiste en un "brut force". 
+Le but ici est de résoudre le projet **match** de la piscine 42. Je m'éloigne un peu de la solution proposée par la plupart des étudiants qui consiste en un "**brut force**". 
 
-Ma solution, n'est cependant pas parfaite au regard de la consigne... Le résultat est que je me comporte plus comme le **wildcard** du **shell**. En gros, une étoile doit représenter un caractère. Si on utilise deux chaînes: 
+Ma solution, n'est cependant pas parfaite au regard de la consigne... Le résultat est que je me comporte plus comme le **wildcard** d'une **regex**. Une étoile doit obligatoirement représenter un caractère: 
 
 * `*t*t*s`
 * `tatas`
 
-Cela ne match pas, le premier caractère étoile ne peut pas prendre la place d'une lettre et match... Les autres cas semblent à peut près OK. Mais l'objectif ici était de faire du backtracking sur les **wildcards** car c'était la solution qui me venait le plus naturellement. En revanche je ne pourrais pas rendre ce projet car il fait une entorse à la consigne.
+Cela ne match pas, le première étoile ne peut pas prendre la place d'une lettre... Les autres cas semblent à peut près OK. L'objectif ici était de faire du backtracking.
 
 ### Backtracking
 
 L'idée est de se rapprocher d'un moteur de regex. Le **wildcard** est un **Greedy** operator (opérateur glouton). C'est à dire que quand on le parcours il nous mène à la fin de la chaîne et commence ça recherche en sens inverse.
 
-J'avais des difficultés à gérer mes valeurs de retours qui s'écrasaient les unes et les autres. Je me suis aidé avec cette référence : http://blog.marcinchwedczuk.pl/matching-regexes-using-backtracking
+J'avais des difficultés à gérer mes valeurs de retours qui s'écrasaient les unes et les autres. Je me suis aidé avec cette référence : 
+
+* http://blog.marcinchwedczuk.pl/matching-regexes-using-backtracking
 
 ### Le code
 
@@ -72,4 +74,4 @@ int match(char *s1, char *s2, int count, size_t max)
 
 ```
 
-L'avantage de cette méthode en comporaison d'une méthode de brute force comme 42 nous demande de réaliser est le nombre beaucoup plus petit, d'appel à la fonction récursive : sur une grande phrase avec beaucoup de wildecards.
+L'avantage de cette méthode en comparaison d'une méthode de **brute force** est le nombre beaucoup plus petit, d'appel à la fonction récursive : sur une grande phrase avec beaucoup de wildecards.
