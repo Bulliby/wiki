@@ -2,7 +2,7 @@
 title: Javascript
 description: Some notes about the Javascript language
 published: true
-date: 2021-06-29T18:48:50.832Z
+date: 2022-04-03T08:17:22.683Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:29.800Z
@@ -55,7 +55,7 @@ if (true)
     var x;
     x = "Like this my variable x is not accessible out of if statement";
   })();
-  //Not present here neither. Js is function scoped...
+  //Not present here. Js is function scoped...
 }
 //Not accessible here.
 ```
@@ -76,11 +76,11 @@ x = test;
 console.log(x);
 ```
 
-They don't take the definition, when any, at the time of declaration, so :
+Javascript don't do the same with definition : 
 
 ```js
-foo();
-var foo = function () {};
+console.log(x);
+var x = "test";
 ```
 
-will result on the following error : `TypeError: foo is not a function`.
+will result in `undefined`.
