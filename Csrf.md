@@ -2,7 +2,7 @@
 title: Csrf
 description: An explanation of CSRF
 published: true
-date: 2021-06-29T18:48:47.673Z
+date: 2022-04-03T08:29:18.501Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:38.390Z
