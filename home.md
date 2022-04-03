@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2022-04-02T18:14:04.851Z
+date: 2022-04-03T08:35:55.163Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:25.802Z
@@ -23,7 +23,7 @@ dateCreated: 2021-03-30T19:58:25.802Z
 - An explanation of CORS: [CORS](cors)
 - An explanation of CSRF: [CSRF](Csrf)
 - Set-Cookie: [Set-Cookie](/set-cookie)
-- Documentation of my understanding at the moment of computer's architecture : [Reverse Engineering](/fr/reverse-engineering)
+- Documentation of my understanding at the moment of computer's architecture : [Reverse Engineering](/reverse-engineering)
 - Bitwise: [Bitwise](Bitwise)
 
 # Books
