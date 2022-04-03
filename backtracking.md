@@ -2,7 +2,7 @@
 title: Backtracking
 description: 
 published: true
-date: 2022-04-03T08:24:53.097Z
+date: 2022-04-03T08:25:25.403Z
 tags: algorithme, récursif
 editor: markdown
 dateCreated: 2021-12-18T22:15:32.672Z
@@ -74,4 +74,4 @@ int match(char *s1, char *s2, int count, size_t max)
 
 ```
 
-L'avantage de cette méthode en comparaison d'une méthode de **brute force** est le nombre beaucoup plus petit, d'appel à la fonction récursive : sur une grande phrase avec beaucoup de wildecards.
+L'avantage de cette méthode en comparaison d'une méthode de **brute force** est le nombre beaucoup plus petit, d'appels à la fonction récursive : sur une grande phrase avec beaucoup de wildecards.
