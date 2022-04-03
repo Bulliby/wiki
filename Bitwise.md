@@ -2,7 +2,7 @@
 title: Bitwise
 description: Operations on Bit
 published: true
-date: 2021-06-29T18:48:47.190Z
+date: 2022-04-03T08:36:54.925Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:31.062Z
@@ -24,7 +24,7 @@ const STATUS = {
 }
 ```
 
-We can use this const with **flags** to define what we need in a **single** variable (That's less memory consuming). For example if we want to handle an action on ERROR and STOPPED status we can pass the two status to the function who will use it like this :
+We can use this const with **flags** to define what we need in a **single** variable. For example if we want to handle an action on ERROR and STOPPED status we can pass the two status to the function who will use it like this :
 
 ```js
 const STATUS = {
