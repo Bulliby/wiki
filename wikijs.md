@@ -2,7 +2,7 @@
 title: Wikijs
 description: 
 published: true
-date: 2021-12-26T11:10:56.755Z
+date: 2022-04-04T20:45:24.915Z
 tags: docker, js, volume, wiki
 editor: markdown
 dateCreated: 2021-04-21T19:18:37.876Z
@@ -15,7 +15,7 @@ dateCreated: 2021-04-21T19:18:37.876Z
 To create the wikijs container use :
 
 ```bash
-docker run -d  --restart unless-stopped --name wiki -e "DB_TYPE=mysql" -e "DB_HOST=localhost" -e "DB_PORT=3306" -e "DB_USER=wikijs" -e "DB_PASS=*******" -e "DB_NAME=wiki" --network host -v wikijs-md:/wiki requarks/wiki:2
+docker run -d  --restart unless-stopped --name wiki -e "DB_TYPE=mysql" -e "DB_HOST=localhost" -e "DB_PORT=3306" -e "DB_USER=wikijs" -e "DB_PASS=*******" -e "DB_NAME=wiki" --network host -v wikijs-md:/wiki requarks/wiki:latest
 ```
 ## Github
 
