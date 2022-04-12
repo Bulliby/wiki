@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2022-04-04T20:34:20.534Z
+date: 2022-04-12T19:41:24.443Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:25.802Z
@@ -23,7 +23,7 @@ dateCreated: 2021-03-30T19:58:25.802Z
 - Some infos on debugging tools : [Debugging](debugging)
 - Certbot create ssl apache's vhost by CLI: [certbot](certbot)
 - An explanation of CORS: [CORS](cors)
-- An explanation of CSRF: [CSRF](Csrf)
+- An explanation of CSRF: [CSRF](/Hidden-Pages/Csrf)
 - Set-Cookie: [Set-Cookie](/set-cookie)
 - Documentation of my understanding at the moment of computer's architecture : [Reverse Engineering](/reverse-engineering)
 - Bitwise: [Bitwise](Bitwise)
