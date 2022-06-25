@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2022-02-03T16:44:27.317Z
+date: 2022-06-25T13:41:04.483Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -34,7 +34,6 @@ gunzip -c mysqldump-glpi-20211004-050001.sql.gz | mysql -u root -p glp
 mysql -uroot -proot -hlocalhost database < save.sql
 ```
 
-
 ### Users Creation
 
 #### Locally
@@ -48,6 +47,12 @@ GRANT ALL ON db1.* TO 'waxer'@'localhost';
 ### Flush
 ```sql
 FLUSH PRIVILEGES;
+```
+
+## Networking
+
+```shell
+netcat -z -v wellsguillaume.fr 3306
 ```
 
 ## Ssh
