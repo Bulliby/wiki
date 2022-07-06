@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2022-06-25T13:41:04.483Z
+date: 2022-07-06T09:52:31.641Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -285,4 +285,11 @@ iptables -L -n --line-numbers
 iptables -D OUTPUT 3
 iptables-save -f /etc/iptables/iptables.rules
 iptables-restore /etc/iptables/iptables.rules
+```
+
+## Patch
+
+```
+diff -u PKGBUILD PKGBUILD.real > PKGBUILD.patch
+patch -p0 -i PKGBUILD.patch
 ```
