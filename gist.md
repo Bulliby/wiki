@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2022-07-06T09:52:31.641Z
+date: 2022-07-13T08:54:44.779Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -293,3 +293,7 @@ iptables-restore /etc/iptables/iptables.rules
 diff -u PKGBUILD PKGBUILD.real > PKGBUILD.patch
 patch -p0 -i PKGBUILD.patch
 ```
+
+## 0.0.0.0
+
+ if some process listens on 0.0.0.0, it will be reachable at IP adresses of all the machine's network interfaces which include the currently configured address of the loop back interface. But if the process listens only on a port <portNumber> of a loopback address, e.g. 127.0.0.1, and then the process is only reachable from the same machine by targeting exactly 127.0.0.1:<portNumber>
