@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2022-07-14T14:57:56.783Z
+date: 2022-07-19T14:10:53.657Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:25.802Z
@@ -17,6 +17,7 @@ dateCreated: 2021-03-30T19:58:25.802Z
 - Backtracking : [Backtracking](backtracking)
 - Laravel : [Laravel](/Hidden-Pages/Laravel)
 - SQL : [sql](/Hidden-Pages/sql)
+- XDebug : [xdebug](xdebug)
 
 ## Symfony
 
