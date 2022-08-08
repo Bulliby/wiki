@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2022-07-13T14:26:42.232Z
+date: 2022-08-08T18:25:43.512Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -90,8 +90,8 @@ Ctrl + A + A + D in place of Ctrl + A + D
 ### Usefull commmands
 
 ``` shell
-# For deprecated HTTPS
-git config --global credential.helper 'cache --timeout=3600'
+# 5h
+git config --global credential.helper 'cache --timeout=18000'
 git push <remote_name> --delete <branch_name>
 # Remove `-|+` from output
 git diff --color-words
