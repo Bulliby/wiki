@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2022-08-09T13:27:50.842Z
+date: 2022-08-09T13:28:29.817Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -306,5 +306,6 @@ ctags -R --exclude="node_modules" --exclude="*.js" --exclude="var" --exclude="tr
 ## Npm
   
 ```shell
+# Show reverse dependency
 npm ls terser
 ```
