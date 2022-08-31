@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2022-08-09T13:28:29.817Z
+date: 2022-08-31T15:43:12.578Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -84,7 +84,9 @@ Ctrl + A + A + D in place of Ctrl + A + D
 ```
 
 ## Rsync
-
+```shell
+rsync -e 'ssh -p 13428 -i /home/perso/.ssh/id_key' perso@192.168.1.129:/home/perso/bap-mib/
+```
 ## Git
 
 ### Usefull commmands
