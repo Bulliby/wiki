@@ -2,7 +2,7 @@
 title: Web Server
 description: Knowledge about server
 published: true
-date: 2022-10-14T17:59:51.576Z
+date: 2022-10-14T18:00:43.810Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:18.214Z
@@ -14,7 +14,7 @@ dateCreated: 2021-03-30T19:59:18.214Z
 
 ### Apache
 
-```apache_conf
+```apacheconf
 <VirtualHost *:80>
     ServerName  "mon.nom.de.domaine.com" 
 
