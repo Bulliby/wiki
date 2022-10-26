@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2021-12-18T22:02:06.794Z
+date: 2022-10-26T19:52:16.120Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:10.773Z
@@ -82,6 +82,7 @@ echo 2.2.2 > .ruby-version
 Runtime Path :
 
 ```
+:echo $VIMRUNTIME
 /usr/share/vim/vim81
 ```
 
