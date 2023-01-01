@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2022-10-26T19:52:16.120Z
+date: 2023-01-01T17:31:14.221Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:10.773Z
@@ -14,25 +14,19 @@ dateCreated: 2021-03-30T19:59:10.773Z
 
 ### Download
 
-Get the PKGBUILD from the official archlinux's repository. See : 
+* Get the official archlinux's PKGBUILD : 
 
-[archlinux.fr](https://wiki.archlinux.org/title/Pacman_(Fran%C3%A7ais)#R.C3.A9cup.C3.A9rer_les_sources_d.27un_paquet)
+```shell
+git clone -b packages/vim --single-branch https://github.com/archlinux/svntogit-packages.git
+```
 
-> (C'est moi qui ai fait ce bout de doc. À l'origine sur archlinux.fr)
-
-To install with Pacman :
+* Install the package :
 
 ```shell
 pacman -U vim-8.1.2268-2-x86_64.pkg.tar.xz vim-runtime-8.1.2268-2-x86_64.pkg.tar.xz
 ```
-### Pacman packet update
+### Pacman Exculde
 Exculde Vim from pacman update : `/etc/pacman.conf` add : `IgnorePkg   = vim vim-runtime`
-
-#### Bundle
-
-#### Lusty Explorer
-
-Apply this patch for lusty explorer : [patch](https://github.com/vim-scripts/LustyExplorer/pull/1/commits/0fb46f6e2e0bcd44094c7d2d959afe156348adcd)
 
 ### Compile Vim editor (at home)
 
