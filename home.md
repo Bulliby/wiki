@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2022-07-19T14:10:53.657Z
+date: 2023-01-01T17:42:17.343Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:25.802Z
@@ -39,6 +39,7 @@ dateCreated: 2021-03-30T19:58:25.802Z
 - Shell-Book: [Shell-Book](/shell-book)
 - TLDP : [Advanced Bash Scripting](/abs)
 - Network OpenClassRoom: [Network](/network)
+- 0ToSysadmin : [0ToSysadmin](/0toSysAdmin)
 
 # Linux
 
