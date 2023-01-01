@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2023-01-01T17:31:14.221Z
+date: 2023-01-01T17:32:54.261Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:10.773Z
@@ -35,6 +35,8 @@ Edit the **PKGBUILD** after have clone the offcial projetc [see above](/en/vim#i
 * modify the `with-x` option to yes to allow clipboard copy and past
 
 ### Compile Vim editor (work)
+
+> At work (on ubuntu), I want Ruby installed for the `command-t` plugin.
 
 ```shell
 uname -a
