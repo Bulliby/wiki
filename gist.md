@@ -2,7 +2,7 @@
 title: Gist
 description: 
 published: true
-date: 2022-08-31T15:43:12.578Z
+date: 2023-03-07T17:32:40.960Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T19:25:43.537Z
@@ -95,6 +95,7 @@ rsync -e 'ssh -p 13428 -i /home/perso/.ssh/id_key' perso@192.168.1.129:/home/per
 # 5h
 git config --global credential.helper 'cache --timeout=18000'
 git push <remote_name> --delete <branch_name>
+git fetch -apt
 # Remove `-|+` from output
 git diff --color-words
 # Reminder ("A dog")
