@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2021-12-21T23:20:26.086Z
+date: 2023-06-03T13:51:57.224Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:52.826Z
@@ -11,6 +11,12 @@ dateCreated: 2021-03-30T19:57:52.826Z
 # Arch Linux
 
 ## Installation
+
+### UEFI
+
+Mount the `/efi` Windows partition, install grub as usual and in BIOS settings choose the `GRUB` efi entry as default for this disk.
+
+Os-prober will detect Windows after booting on Archlinux once the installation is completed.
 
 ### Flash media
 On linux to create a bootable usb stick we can use the following cmd :
@@ -46,6 +52,10 @@ DHCP=yes
 Do the same with this file `/etc/systemd/network/25-wireless.network` who handle **wifi** interface.
 
 Enable and restart `systemd-networkd.service`.
+
+#### DNS
+
+Enable and start `systemctl enable systemd-resolved`
 
 #### Wifi
 
