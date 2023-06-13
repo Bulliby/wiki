@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2023-06-03T13:51:57.224Z
+date: 2023-06-13T09:24:17.681Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:52.826Z
@@ -32,6 +32,10 @@ For recover a clean usb for other use we need to exec this cmd :
 ```shell
 wipefs --all /dev/sdx
 ```
+
+### Nvidia
+
+For `Mib` if lts kernel choose `nvidia-lts` driver
 
 ### Network
 
