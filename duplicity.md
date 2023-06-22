@@ -2,7 +2,7 @@
 title: duplicity
 description: 
 published: true
-date: 2021-10-20T21:41:53.355Z
+date: 2023-06-22T17:12:16.491Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:10.993Z
@@ -133,5 +133,5 @@ echo "################# The save is done ####################################"
 ### Restore
 
 ```bash
-duplicity --file-to-restore "/home/bulliby/Documents/bkp-han.tar" --no-encryption file:///root/mymount/save /home/bulliby/bkp-han.tar
+ duplicity --file-to-restore "/home/bulliby/Documents/bkp-han.tar" --no-encryption --tempdir=/root/mymount/tmp file:///root/mymount/save /home/bulliby/restore/bkp-han.tar
 ```
