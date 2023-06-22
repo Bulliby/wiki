@@ -2,7 +2,7 @@
 title: duplicity
 description: 
 published: true
-date: 2023-06-22T17:12:16.491Z
+date: 2023-06-22T17:18:37.469Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:10.993Z
@@ -135,3 +135,5 @@ echo "################# The save is done ####################################"
 ```bash
  duplicity --file-to-restore "/home/bulliby/Documents/bkp-han.tar" --no-encryption --tempdir=/root/mymount/tmp file:///root/mymount/save /home/bulliby/restore/bkp-han.tar
 ```
+
+> Set `tempdir` to a folder with large space for large files.
