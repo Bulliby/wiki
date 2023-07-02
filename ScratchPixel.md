@@ -2,7 +2,7 @@
 title: ScratchPixel
 description: 
 published: true
-date: 2023-06-20T17:07:36.437Z
+date: 2023-07-02T10:01:57.395Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-20T17:07:36.437Z
@@ -18,5 +18,5 @@ If we take the bottom left corner of our screen as our origin coordinate system 
 
 The **Left-Handed** and **Right-Handed** it's just here to remberer in which convention we place our object.
 
-*X,Y,Z* are respectively **thumb,index and middle finger*, the **thumb** must always point to **right**. In this configuration we can see that our **left hand** have a middle finger which points **forward** and with the **right hand** **backward**.
+*X,Y,Z* are respectively *thumb,index and middle finger*, the **thumb** must always point to **right**. In this configuration we can see that our **left hand** have a middle finger which points **forward** and with the **right hand** **backward**.
 
