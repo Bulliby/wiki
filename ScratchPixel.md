@@ -2,7 +2,7 @@
 title: ScratchPixel
 description: 
 published: true
-date: 2023-07-02T10:08:40.220Z
+date: 2023-07-02T10:10:31.853Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-20T17:07:36.437Z
@@ -24,4 +24,4 @@ The **Left-Handed** and **Right-Handed** it's just here to remberer in which con
 
 ## Row Major vs Column Major Vector
 
-With **scratchpixel** we use row major vector.
+With **scratchpixel** we use row major vector and matrix.
