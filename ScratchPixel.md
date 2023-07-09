@@ -2,7 +2,7 @@
 title: ScratchPixel
 description: 
 published: true
-date: 2023-07-09T14:07:32.953Z
+date: 2023-07-09T14:19:55.985Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-20T17:07:36.437Z
@@ -31,6 +31,8 @@ With **Scratchpixel** we use row major vector and matrix.
 > **Transformation matrix** are a mean to change of coordinate system.
 
 A matrix is a coordinate system transformation "tool" with the 3 axis of the new coordinate system who represent it's orientation and a translation vector who represent the movement to move the center of one coordinate system to the other.
+
+
 
 > **Transformation matrix** can be combined, but in a certain order
 
