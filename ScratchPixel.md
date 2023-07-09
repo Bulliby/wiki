@@ -2,7 +2,7 @@
 title: ScratchPixel
 description: 
 published: true
-date: 2023-07-09T14:19:55.985Z
+date: 2023-07-09T16:20:07.788Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-20T17:07:36.437Z
@@ -32,6 +32,20 @@ With **Scratchpixel** we use row major vector and matrix.
 
 A matrix is a coordinate system transformation "tool" with the 3 axis of the new coordinate system who represent it's orientation and a translation vector who represent the movement to move the center of one coordinate system to the other.
 
+$$
+\begin{bmatrix}
+\color{red}{c_{00}}& \color{red}{c_{01}}&\color{red}{c_{02}}&\color{black}{c_{03}}\\
+\color{green}{c_{10}}& \color{green}{c_{11}}&\color{green}{c_{12}}&\color{black}{c_{13}}\\
+\color{blue}{c_{20}}& \color{blue}{c_{21}}&\color{blue}{c_{22}}&\color{black}{c_{23}}\\
+\color{purple}{c_{30}}& \color{purple}{c_{31}}&\color{purple}{c_{32}}&\color{black}{c_{33}}\\
+\end{bmatrix}
+\begin{array}{l}
+\rightarrow \quad \color{red} {x-axis}\\
+\rightarrow \quad \color{green} {y-axis}\\
+\rightarrow \quad \color{blue} {z-axis}\\
+\rightarrow \quad \color{purple} {translation}\\
+\end{array}
+$$
 
 
 > **Transformation matrix** can be combined, but in a certain order
