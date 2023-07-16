@@ -2,7 +2,7 @@
 title: ScratchPixel
 description: 
 published: true
-date: 2023-07-16T11:58:21.481Z
+date: 2023-07-16T12:12:42.887Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-20T17:07:36.437Z
@@ -27,27 +27,6 @@ The **Left-Handed** and **Right-Handed** it's just here to remberer in which con
 ### Row Major vs Column Major Matrix
 
 With **Scratchpixel** we use row major vector and matrix.
-
-### Point-Matrix multiplication
-
-$$
-\begin{bmatrix}x & y & z\end{bmatrix} *
-\begin{bmatrix}
-c_{00}&c_{01}&{c_{02}}\\
-c_{10}&c_{11}&{c_{12}}\\
-c_{20}&c_{21}&{c_{22}}\\
-\end{bmatrix}
-$$
-
-```
-// multiply coeffs from row 1 with coeffs from column 1
-Ptransformed.x = P.x * c00 + P.y * c10 + P.z * c20
-// multiply coeffs from row 1 with coeffs from column 2
-Ptransformed.y = P.x * c01 + P.y * c11 + P.z * c21
-// multiply coeffs from row 1 with coeffs from column 3
-Ptransformed.z = P.x * c02 + P.y * c12 + P.z * c22
-```
-
 
 
 ### Transformation matrix
