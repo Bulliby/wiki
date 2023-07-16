@@ -2,7 +2,7 @@
 title: ScratchPixel
 description: 
 published: true
-date: 2023-07-16T12:12:42.887Z
+date: 2023-07-16T12:17:00.675Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-20T17:07:36.437Z
@@ -23,6 +23,10 @@ The **Left-Handed** and **Right-Handed** it's just here to remberer in which con
 ![geo-lefthand-vs-righthand.png](/geo-lefthand-vs-righthand.png)
 
 ## Matrix
+
+### Matrix multplication
+
+Matrix multplication need compatible size. In a **row major** matrix. The row size of one matrix must be equal to the column size of the other.
 
 ### Row Major vs Column Major Matrix
 
