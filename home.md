@@ -2,7 +2,7 @@
 title: Documentation
 description: All documentations i need to create for understand or remember
 published: true
-date: 2023-07-21T17:54:06.812Z
+date: 2023-07-21T17:56:18.985Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:25.802Z
@@ -14,10 +14,7 @@ dateCreated: 2021-03-30T19:58:25.802Z
 - Javascript courses: [Javascript](javascript)
 - Backtracking : [Backtracking](backtracking)
 - XDebug : [xdebug](xdebug)
-
-## Symfony
-
-* SMTP Gmail : [gmail](/symfony/smtp)
+- SMTP Gmail avec Symfony : [gmail](/symfony/smtp)
 
 # Security
 
