@@ -2,7 +2,7 @@
 title: cors
 description: 
 published: true
-date: 2021-06-29T18:48:48.940Z
+date: 2023-07-21T17:58:19.684Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:00.202Z
@@ -12,17 +12,17 @@ dateCreated: 2021-03-30T19:58:00.202Z
 > Cross-origin resource sharing
 > Need rewrite
 
-### Domain separation of client data
+## Domain separation of client data
 
 When you go on trucmuche.com, your **browser** download the **js** files of the site and execute it. The scripts are executed in the scope of the  `trucmuche.com` domain. The cookies are keep in a jail  and only accessible by the `trucmuche.com` site. 
 
-### Ajax-request
+## Ajax-request
 
 * If the **js** script do an **ajax-request** to `trucmuche.com` there is no  cross-origin resource sharing, so the request is completed by the browser.  Indeed the same-origin request are by default accepted by browsers.
 
 * If the **js** script do an **ajax-request** to `autremuche.com` there is  cross-origin so the request is not  completed, unless `autremuche.com` authorized `trucmuche.com` as origin.
 
-### Security
+## Security
 
 It the browsers did not block the **CORS**, a script from `trucmuche.com` could make request to your bank with your browser and get some secret content.
 
