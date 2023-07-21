@@ -2,7 +2,7 @@
 title: Javascript
 description: Some notes about the Javascript language
 published: true
-date: 2022-04-03T08:17:22.683Z
+date: 2023-07-21T17:47:01.495Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:29.800Z
@@ -12,7 +12,7 @@ dateCreated: 2021-03-30T19:58:29.800Z
 
 ## Promise
 
-> A Promise is an object representing the eventual completion or failure of an asynchronous operation. Since most people are consumers of already-created promises, this guide will explain consumption of returned promises before explaining how to create them.
+> A Promise is an object representing the eventual completion or failure of an asynchronous operation.
 
 ### Creation
 
@@ -25,7 +25,8 @@ var promise1 = new Promise(function(resolve, reject) {
 });
 ```
 
-The **resolve** function permit to return the **new** Promise. We can now chain it with the **then** keyword.
+The **resolve** function permit to return the **new** Promise with the content `foo`. We can now chain it with the **then** keyword and get the content.
+
 
 If we have an utility like *axios* with a `.get` function who return a **Promise**, we can use it like this :
 
