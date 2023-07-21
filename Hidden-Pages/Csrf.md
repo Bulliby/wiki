@@ -2,7 +2,7 @@
 title: Csrf
 description: An explanation of CSRF
 published: true
-date: 2022-04-03T08:29:18.501Z
+date: 2023-07-21T18:16:49.431Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:38.390Z
@@ -16,14 +16,12 @@ dateCreated: 2021-03-30T19:57:38.390Z
 
 ## Mitigation
 
- To mitigate this a **CSRF**, a generated token is registered in a session server who is directly relied to an application user.
+To mitigate **CSRF**, a *CSRF-Token* is generated.
 
- This **token** can be passed to the client in several form :
+This **token** can be passed to the client in several form :
 
- * an input hidden field or meta-tag.
+* an input hidden field or meta-tag.
 
- * a Cookie set by the Set-Cookie header response.
+* a Cookie set by the Set-Cookie header response.
 
-
- The client get this token and pass it to the server with a custom HTTP header.
- > With the **Set-Cookie** method it's realy important that the token's verification rely only on custom HTTTP header not on Request CSRF cookie.
+This two different technique see [SO](https://stackoverflow.com/questions/34782493/difference-between-csrf-and-x-csrf-token)
