@@ -2,7 +2,7 @@
 title: Javascript
 description: Some notes about the Javascript language
 published: true
-date: 2023-07-21T17:47:01.495Z
+date: 2023-07-21T17:50:26.196Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:58:29.800Z
@@ -27,7 +27,6 @@ var promise1 = new Promise(function(resolve, reject) {
 
 The **resolve** function permit to return the **new** Promise with the content `foo`. We can now chain it with the **then** keyword and get the content.
 
-
 If we have an utility like *axios* with a `.get` function who return a **Promise**, we can use it like this :
 
 ```js
@@ -35,6 +34,12 @@ If we have an utility like *axios* with a `.get` function who return a **Promise
   .get('http://www.google.fr')
   .then((result) => { console.log('data-fetched is :' + result ); })
 ```
+
+#### References
+
+* [cnotheus](https://github.com/Bulliby/cnotheus/blob/main/src/xhr.js)
+
+> For promise **creation**
 
 ### All
 
@@ -46,8 +51,7 @@ If we have an utility like *axios* with a `.get` function who return a **Promise
 
 ## Scope
 
-
-The scope in *JS* is not like in C who is **block scoped**  here the code is **function scoped** or global. If we want to trix and have a scope in a if statements we can define a *auto-called* function who contain the code we want block scoped, like this :
+The scope in *JS* is not like in C who is **block scoped**  here the code is either **function scoped** or **global**. If we want to trix and have a scope in a if statements we can define a *auto-called* function who contain the code we want block scoped, like this :
 
 ```js
 if (true)
