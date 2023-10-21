@@ -2,7 +2,7 @@
 title: archlinux
 description: 
 published: true
-date: 2023-06-13T09:24:17.681Z
+date: 2023-10-21T09:47:37.355Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:57:52.826Z
@@ -27,15 +27,11 @@ dd bs=4M if=path/to/archlinux.iso of=/dev/sdx status=progress oflag=sync
 
 > We must not put the partion number it's `/dev/sdx` not `/dev/sdxn`.
 
-For recover a clean usb for other use we need to exec this cmd :
+For recover a clean usb:
 
 ```shell
 wipefs --all /dev/sdx
 ```
-
-### Nvidia
-
-For `Mib` if lts kernel choose `nvidia-lts` driver
 
 ### Network
 
@@ -104,8 +100,9 @@ Run `bluetoothctl`
 
 ### GeForce RTx2700
 
-Install nvidia proprietary driver.
-> The nouveau seems not work well.
+To install proprietary driver, go on nvidia page and download the archive. 
+
+You need to run the script on root. You need to boot without nouveau, so with the hdmi plugged on the motherboard. To do that blacklist nouveau and run the nvidia script. Then activate **Direct rendering manager** [DRM](https://community.kde.org/Plasma/Wayland/Nvidia).
 
 # KDE
 
