@@ -2,7 +2,7 @@
 title: Vim
 description: 
 published: true
-date: 2023-01-01T17:32:54.261Z
+date: 2023-12-10T16:12:05.844Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-30T19:59:10.773Z
@@ -92,3 +92,16 @@ Runtime Path :
 * `"0` : Contain the most recent yank even if it's not an enitre line.
 
 * `"1` : Contain the last deleted or changed element if contains not less than one line.
+
+## Indent files
+
+Modify `.editorconfig`
+
+```shell
+vim `find -name "*.lua"`
+```
+
+```vim
+:bufdo normal G=gg
+:bufdo w
+```
