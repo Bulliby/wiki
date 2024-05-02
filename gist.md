@@ -312,3 +312,6 @@ ctags -R --exclude="node_modules" --exclude="*.js" --exclude="var" --exclude="tr
 # Show reverse dependency
 npm ls terser
 ```
+## Mysql
+
+`ON DELETE CASCADE to Leave No Orphans!`
