@@ -74,4 +74,4 @@ OR b1.date_reported = b2.date_reported AND b1.bug_id < b2.bug_id))
 WHERE b2.bug_id IS NULL;
 ```
 
-> Ici on fait un left join pour récupérer la partie de droite à nul, qui indique que l'élément de gauche est le **max** car il n'a pas de correspondance : `b1.date_reported < b2.date_reported`
+> Ici on fait un left join pour récupérer la partie de droite à null, qui indique que l'élément de gauche est le **max** car il n'a pas de correspondance : `b1.date_reported < b2.date_reported`
