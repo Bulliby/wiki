@@ -1,14 +1,8 @@
----
-title: php
-description: 
-published: true
-date: 2023-07-21T17:41:37.860Z
-tags: 
-editor: markdown
-dateCreated: 2021-03-30T19:58:40.876Z
----
-
 # PHP
+
+## Thread
+
+**PHP** est par lui même **single threaded**. C'est le serveur qui fournit plusieurs instances de **PHP**.
 
 ## Type Juggling
 
@@ -79,7 +73,7 @@ We can see that we can **mitigate** the result of precedent test with **strict**
 
 ### PHP Advertisement
 
-On certain function we can find in the PHP's **documentation** an advertisement that the function can return **false** *or* a value that can be interpreted like *false* by PHP in a loosely comparison.
+On certain function we can find in the PHP's **documentation** an advertisement that the function can return **false** *or* a value that can be interpreted like *false* by PtryHP in a loosely comparison.
 
 This is the case with the [reset](https://www.php.net/manual/fr/function.reset.php) function.
 
